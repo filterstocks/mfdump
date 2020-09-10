@@ -1,0 +1,58 @@
+select * from mutual_funds where month = 8 and fund_house = 'PPLTVF'
+('Total number of stocks: ', 26)
+select * from mutual_funds where month = 7 and fund_house = 'PPLTVF'
+('Total number of stocks: ', 26)
+                            Cadila Healthcare Ltd. held
+                       Indian Energy Exchange Ltd. added
+                                    HDFC Bank Ltd. reduced
+                Sun Pharmaceutical Industries Ltd. held
+                     Dr. Reddy's Laboratories Ltd. held
+                                   ICICI Bank Ltd. held
+                  Bajaj Holdings & Investment Ltd. held
+                                          ITC Ltd. added
+                                Hero MotoCorp Ltd. held
+                                    Axis Bank Ltd. held
+                           Persistent Systems Ltd. held
+                                        Lupin Ltd. held
+                                      Mphasis Ltd. held
+                            IPCA Laboratories Ltd. held
+                                         ICRA Ltd. held
+              Central Depository Services (I) Ltd. added
+            Multi Commodity Exchange of India Ltd. added
+                               Zydus Wellness Ltd. held
+                        Balkrishna Industries Ltd. held
+           Oracle Financial Services Software Ltd. held
+            Mahindra Holidays & Resorts India Ltd. held
+                                     Alphabet Inc. held
+                                    Amazon.Com Inc held
+                                      Facebook Inc held
+                             Microsoft Corporation added
+                         Suzuki Motor Corporation* held
+select * from mutual_funds where month = 8 and fund_house = 'PPTSF'
+('Total number of stocks: ', 24)
+select * from mutual_funds where month = 7 and fund_house = 'PPTSF'
+('Total number of stocks: ', 24)
+                            Cadila Healthcare Ltd. held
+                       Indian Energy Exchange Ltd. added
+                                    HDFC Bank Ltd. reduced
+                Sun Pharmaceutical Industries Ltd. held
+                                        Wipro Ltd. held
+                     Dr. Reddy's Laboratories Ltd. held
+                                   ICICI Bank Ltd. held
+                  Bajaj Holdings & Investment Ltd. held
+                                          ITC Ltd. added
+                                Hero MotoCorp Ltd. held
+                                    Axis Bank Ltd. held
+                           Persistent Systems Ltd. held
+                                        Lupin Ltd. held
+                                      Mphasis Ltd. held
+                    Tata Consultancy Services Ltd. held
+                            IPCA Laboratories Ltd. held
+                          Maruti Suzuki India Ltd. held
+                                         ICRA Ltd. held
+              Central Depository Services (I) Ltd. added
+            Multi Commodity Exchange of India Ltd. held
+                               Zydus Wellness Ltd. held
+                        Balkrishna Industries Ltd. held
+           Oracle Financial Services Software Ltd. held
+            Mahindra Holidays & Resorts India Ltd. held

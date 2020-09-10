@@ -1,0 +1,238 @@
+select * from mutual_funds where month = 8 and fund_house = 'Long Term Equity Fund'
+('Total number of stocks: ', 31)
+select * from mutual_funds where month = 7 and fund_house = 'Long Term Equity Fund'
+('Total number of stocks: ', 28)
+   Housing Development Finance Corporation Limited new
+                                   Infosys Limited new
+                           Larsen & Toubro Limited held
+                              Asian Paints Limited new
+                        Hindustan Unilever Limited reduced
+                                 HDFC Bank Limited held
+                            VIP Industries Limited held
+                                ICICI Bank Limited held
+Cholamandalam Investment and Finance Company Limited held
+                                       ITC Limited new
+                    Max Financial Services Limited held
+                         The Phoenix Mills Limited held
+                       Kotak Mahindra Bank Limited held
+                                 Axis Bank Limited held
+     Crompton Greaves Consumer Electricals Limited held
+                         Birla Corporation Limited held
+                              Petronet LNG Limited held
+                             Bharti Airtel Limited held
+                           Muthoot Finance Limited reduced
+                 Tata Consultancy Services Limited new
+                                  3M India Limited held
+                          UltraTech Cement Limited new
+                       Maruti Suzuki India Limited held
+                         Dr. Lal Path Labs Limited reduced
+                   Torrent Pharmaceuticals Limited reduced
+                          United Breweries Limited held
+                        Whirlpool of India Limited held
+                           Page Industries Limited reduced
+   ICICI Lombard General Insurance Company Limited held
+               HDFC Life Insurance Company Limited reduced
+                        Jubilant Foodworks Limited reduced
+                                       MRF Limited exit
+                     AU Small Finance Bank Limited exit
+                              Shree Cement Limited exit
+select * from mutual_funds where month = 8 and fund_house = 'Dynamic Fund'
+('Total number of stocks: ', 30)
+select * from mutual_funds where month = 7 and fund_house = 'Dynamic Fund'
+('Total number of stocks: ', 29)
+                   8.48% KARNATAKA SDL-17-Oct-2022 held
+                   8.90% TAMILNADU SDL-20-Sep-2022 held
+   Housing Development Finance Corporation Limited held
+   Housing Development Finance Corporation Limited new
+                       Reliance Industries Limited held
+                                   Infosys Limited held
+                              Asian Paints Limited held
+                        Hindustan Unilever Limited held
+                                 HDFC Bank Limited held
+                             Eicher Motors Limited new
+                                ICICI Bank Limited held
+             HDFC Asset Management Company Limited held
+                             Hero MotoCorp Limited held
+                      Britannia Industries Limited held
+                       Kotak Mahindra Bank Limited reduced
+                                 Axis Bank Limited held
+                              Nestle India Limited held
+                             Titan Company Limited held
+                             Bajaj Finance Limited held
+        Nippon Life India Asset Management Limited held
+                              Petronet LNG Limited reduced
+                             Bharti Airtel Limited held
+                           Muthoot Finance Limited added
+                 Tata Consultancy Services Limited held
+                        Alkem Laboratories Limited added
+                       Maruti Suzuki India Limited held
+   ICICI Lombard General Insurance Company Limited held
+               HDFC Life Insurance Company Limited held
+                            United Spirits Limited reduced
+                     AU Small Finance Bank Limited held
+                             Eicher Motors Limited exit
+select * from mutual_funds where month = 8 and fund_house = 'Large & Midcap Fund'
+('Total number of stocks: ', 30)
+select * from mutual_funds where month = 7 and fund_house = 'Large & Midcap Fund'
+('Total number of stocks: ', 26)
+   Housing Development Finance Corporation Limited held
+                                   Infosys Limited new
+                           Larsen & Toubro Limited reduced
+                              Asian Paints Limited new
+                        Hindustan Unilever Limited reduced
+                                 HDFC Bank Limited held
+                            VIP Industries Limited held
+                                ICICI Bank Limited held
+Cholamandalam Investment and Finance Company Limited held
+                    Max Financial Services Limited held
+                         The Phoenix Mills Limited held
+                          Kajaria Ceramics Limited held
+                       Kotak Mahindra Bank Limited held
+                                 Axis Bank Limited held
+     Crompton Greaves Consumer Electricals Limited held
+                         Birla Corporation Limited held
+                             Bharti Airtel Limited held
+                           Muthoot Finance Limited reduced
+                 Tata Consultancy Services Limited new
+                                  3M India Limited reduced
+                       Maruti Suzuki India Limited held
+                         Dr. Lal Path Labs Limited held
+                   Torrent Pharmaceuticals Limited reduced
+                          United Breweries Limited held
+                        Whirlpool of India Limited held
+                           Page Industries Limited held
+                     Balkrishna Industries Limited held
+                        Jubilant Foodworks Limited reduced
+                               Gujarat Gas Limited new
+                                       MRF Limited reduced
+select * from mutual_funds where month = 8 and fund_house = 'Multicap 35 Fund'
+('Total number of stocks: ', 26)
+select * from mutual_funds where month = 7 and fund_house = 'Multicap 35 Fund'
+('Total number of stocks: ', 26)
+   Housing Development Finance Corporation Limited reduced
+                       Reliance Industries Limited held
+                                   Infosys Limited held
+                              Asian Paints Limited reduced
+                        Hindustan Unilever Limited reduced
+                                 HDFC Bank Limited reduced
+                             Eicher Motors Limited new
+             HDFC Asset Management Company Limited held
+                             Hero MotoCorp Limited added
+                      Britannia Industries Limited held
+                       Kotak Mahindra Bank Limited reduced
+                              Nestle India Limited held
+                             Titan Company Limited reduced
+                             Bajaj Finance Limited held
+        Nippon Life India Asset Management Limited held
+                              Petronet LNG Limited reduced
+                             Bharti Airtel Limited held
+                           Muthoot Finance Limited added
+                 Tata Consultancy Services Limited held
+                        Alkem Laboratories Limited added
+                       Maruti Suzuki India Limited held
+   ICICI Lombard General Insurance Company Limited held
+               HDFC Life Insurance Company Limited held
+                            United Spirits Limited reduced
+                            Vaibhav Global Limited added
+                     AU Small Finance Bank Limited held
+                             Eicher Motors Limited exit
+select * from mutual_funds where month = 8 and fund_house = 'Focused 25 Fund'
+('Total number of stocks: ', 25)
+select * from mutual_funds where month = 7 and fund_house = 'Focused 25 Fund'
+('Total number of stocks: ', 24)
+   Housing Development Finance Corporation Limited added
+                       Reliance Industries Limited reduced
+                                    CRISIL Limited reduced
+                                   Infosys Limited added
+                        Hindustan Unilever Limited new
+                                 HDFC Bank Limited reduced
+                             Eicher Motors Limited new
+                              Shree Cement Limited held
+                  Dr. Reddy's Laboratories Limited held
+                                ICICI Bank Limited held
+            Container Corporation of India Limited reduced
+                                 ABB India Limited held
+                         Avenue Supermarts Limited reduced
+                   Procter & Gamble Health Limited held
+                      Britannia Industries Limited held
+                       Kotak Mahindra Bank Limited held
+                              Abbott India Limited reduced
+                             Bharti Airtel Limited held
+                 Tata Consultancy Services Limited added
+                          UltraTech Cement Limited held
+                       Maruti Suzuki India Limited held
+                             PI Industries Limited reduced
+   ICICI Lombard General Insurance Company Limited held
+                        Mahindra Logistics Limited held
+               HDFC Life Insurance Company Limited reduced
+                             Eicher Motors Limited exit
+select * from mutual_funds where month = 8 and fund_house = 'Midcap 30 Fund'
+('Total number of stocks: ', 29)
+select * from mutual_funds where month = 7 and fund_house = 'Midcap 30 Fund'
+('Total number of stocks: ', 28)
+                       Astral Poly Technik Limited held
+                        Hindustan Unilever Limited reduced
+                             Ajanta Pharma Limited held
+              Navin Fluorine International Limited added
+                     Metropolis Healthcare Limited held
+Cholamandalam Investment and Finance Company Limited held
+                  Coromandel International Limited held
+                                Bata India Limited held
+                    Max Financial Services Limited added
+                         Avenue Supermarts Limited reduced
+                         The Phoenix Mills Limited added
+                  Larsen & Toubro Infotech Limited held
+                                    Voltas Limited held
+                              Nestle India Limited reduced
+                             Bajaj Finance Limited held
+     Crompton Greaves Consumer Electricals Limited reduced
+                         The Ramco Cements Limited held
+                              Abbott India Limited reduced
+                         IPCA Laboratories Limited reduced
+                             PI Industries Limited held
+                Honeywell Automation India Limited held
+                      CreditAccess Grameen Limited added
+                           Page Industries Limited held
+                        Jubilant Foodworks Limited held
+                              Avanti Feeds Limited new
+                    Endurance Technologies Limited added
+                     AU Small Finance Bank Limited held
+                 Tube Investments of India Limited held
+                        TeamLease Services Limited reduced
+select * from mutual_funds where month = 8 and fund_house = 'Equity Hybrid'
+('Total number of stocks: ', 32)
+select * from mutual_funds where month = 7 and fund_house = 'Equity Hybrid'
+('Total number of stocks: ', 31)
+                 6.81% MAHARASHTRA SDL-08-Nov-2022 held
+   Housing Development Finance Corporation Limited added
+   Housing Development Finance Corporation Limited held
+                       Reliance Industries Limited reduced
+                                    CRISIL Limited reduced
+                                   Infosys Limited added
+                        Hindustan Unilever Limited new
+                                 HDFC Bank Limited added
+                             Eicher Motors Limited new
+                              Shree Cement Limited held
+                  Dr. Reddy's Laboratories Limited held
+                                ICICI Bank Limited held
+            Container Corporation of India Limited reduced
+                                 ABB India Limited held
+                             Castrol India Limited held
+                         Avenue Supermarts Limited reduced
+                   Procter & Gamble Health Limited added
+                      Britannia Industries Limited held
+                       Kotak Mahindra Bank Limited held
+                                 Axis Bank Limited held
+                              Abbott India Limited reduced
+                             Bharti Airtel Limited held
+                         Bayer Cropscience Limited reduced
+                 Tata Consultancy Services Limited held
+                      Gujarat Pipavav Port Limited held
+                       Maruti Suzuki India Limited held
+                             PI Industries Limited reduced
+                Honeywell Automation India Limited reduced
+                           Page Industries Limited held
+   ICICI Lombard General Insurance Company Limited held
+                        Mahindra Logistics Limited held
+               HDFC Life Insurance Company Limited reduced
+                             Eicher Motors Limited exit

@@ -1,0 +1,70 @@
+select * from mutual_funds where month = 8 and fund_house = 'QTSF'
+('Total number of stocks: ', 30)
+select * from mutual_funds where month = 7 and fund_house = 'QTSF'
+('Total number of stocks: ', 30)
+                Tata Steel Ltd - Partly Paid Share held
+      Housing Development Finance Corporation Ltd* held
+                                      Infosys Ltd* held
+                                          ACC Ltd* held
+                                    HDFC Bank Ltd* held
+                     The Indian Hotels Company Ltd held
+                                        Cipla Ltd* held
+                               State Bank of India held
+                                 Eicher Motors Ltd new
+                                        Wipro Ltd* held
+                               Ambuja Cements Ltd* held
+                                    Tata Steel Ltd held
+                                    ICICI Bank Ltd held
+                                 Indusind Bank Ltd held
+                          Mahindra & Mahindra Ltd* held
+                           LIC Housing Finance Ltd held
+                                  Gail (India) Ltd held
+                                Hero MotoCorp Ltd* held
+                 Oil & Natural Gas Corporation Ltd held
+                        Gujarat State Petronet Ltd held
+                                 Cummins India Ltd held
+                              Exide Industries Ltd held
+                                        Lupin Ltd* held
+                     Tata Consultancy Services Ltd held
+                                 Tech Mahindra Ltd held
+             Shriram Transport Finance Company Ltd held
+                                          NTPC Ltd held
+               Power Grid Corporation of India Ltd held
+                                     PTC India Ltd reduced
+                                    Bajaj Auto Ltd held
+                                 Eicher Motors Ltd exit
+select * from mutual_funds where month = 8 and fund_house = 'QLTEVF'
+('Total number of stocks: ', 30)
+select * from mutual_funds where month = 7 and fund_house = 'QLTEVF'
+('Total number of stocks: ', 30)
+                Tata Steel Ltd - Partly Paid Share held
+      Housing Development Finance Corporation Ltd* reduced
+                                      Infosys Ltd* held
+                                          ACC Ltd* held
+                                    HDFC Bank Ltd* reduced
+                     The Indian Hotels Company Ltd reduced
+                                        Cipla Ltd* reduced
+                               State Bank of India held
+                                 Eicher Motors Ltd new
+                                        Wipro Ltd* reduced
+                               Ambuja Cements Ltd* held
+                                    Tata Steel Ltd held
+                                    ICICI Bank Ltd reduced
+                                 Indusind Bank Ltd held
+                          Mahindra & Mahindra Ltd* held
+                           LIC Housing Finance Ltd held
+                                  Gail (India) Ltd held
+                                Hero MotoCorp Ltd* held
+                 Oil & Natural Gas Corporation Ltd held
+                        Gujarat State Petronet Ltd reduced
+                                 Cummins India Ltd reduced
+                              Exide Industries Ltd held
+                                        Lupin Ltd* held
+                     Tata Consultancy Services Ltd held
+                                 Tech Mahindra Ltd reduced
+             Shriram Transport Finance Company Ltd held
+                                          NTPC Ltd held
+               Power Grid Corporation of India Ltd held
+                                     PTC India Ltd reduced
+                                    Bajaj Auto Ltd held
+                                 Eicher Motors Ltd exit

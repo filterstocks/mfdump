@@ -1,0 +1,483 @@
+select * from mutual_funds where month = 8 and fund_house = 'MATSF'
+('Total number of stocks: ', 48)
+select * from mutual_funds where month = 7 and fund_house = 'MATSF'
+('Total number of stocks: ', 48)
+                     Reliance Industries Limited^^ held
+   Housing Development Finance Corporation Limited added
+                       Reliance Industries Limited reduced
+                                   Infosys Limited held
+                               Dabur India Limited held
+                           Larsen & Toubro Limited reduced
+                                  MindTree Limited held
+                    Indian Energy Exchange Limited reduced
+              Bharat Petroleum Corporation Limited added
+                        Hindustan Unilever Limited added
+                                 HDFC Bank Limited added
+             Sun Pharmaceutical Industries Limited reduced
+                               State Bank of India held
+                                Tata Steel Limited held
+                  Dr. Reddy's Laboratories Limited added
+                                ICICI Bank Limited added
+           Hindustan Petroleum Corporation Limited held
+Cholamandalam Investment and Finance Company Limited reduced
+                SBI Life Insurance Company Limited held
+                 Power Finance Corporation Limited reduced
+                                       ITC Limited held
+                             Havells India Limited reduced
+                    Max Financial Services Limited reduced
+                    Tata Consumer Products Limited reduced
+                             Ashok Leyland Limited held
+                          Kajaria Ceramics Limited held
+                                    Voltas Limited held
+                       Kotak Mahindra Bank Limited reduced
+                                 Axis Bank Limited held
+                    Gujarat State Petronet Limited added
+                        Bharat Electronics Limited reduced
+                                     Lupin Limited new
+                       Divi's Laboratories Limited added
+                             Bharti Airtel Limited added
+                           Vinati Organics Limited held
+                 Tata Consultancy Services Limited held
+                                      CEAT Limited added
+                     Kansai Nerolac Paints Limited added
+                                     Emami Limited added
+                       Maruti Suzuki India Limited held
+                               Jyothy Labs Limited held
+                 Prince Pipes And Fittings Limited reduced
+                                      NTPC Limited reduced
+                           Page Industries Limited held
+                     Balkrishna Industries Limited reduced
+               HDFC Life Insurance Company Limited held
+                                 JK Cement Limited held
+                              Natco Pharma Limited new
+                       Gateway Distriparks Limited exit
+                         Avenue Supermarts Limited exit
+select * from mutual_funds where month = 8 and fund_house = 'MAESF'
+('Total number of stocks: ', 48)
+select * from mutual_funds where month = 7 and fund_house = 'MAESF'
+('Total number of stocks: ', 48)
+   Housing Development Finance Corporation Limited added
+                       Reliance Industries Limited added
+                                   Infosys Limited added
+                               Dabur India Limited held
+                           Larsen & Toubro Limited held
+                                  MindTree Limited reduced
+              Bharat Petroleum Corporation Limited held
+                           Rossari Biotech Limited held
+                        Hindustan Unilever Limited held
+                                 HDFC Bank Limited held
+             Sun Pharmaceutical Industries Limited reduced
+                               State Bank of India reduced
+                                Tata Steel Limited added
+                  Dr. Reddy's Laboratories Limited new
+                                ICICI Bank Limited held
+           Hindustan Petroleum Corporation Limited held
+                             IndusInd Bank Limited reduced
+                SBI Life Insurance Company Limited reduced
+                 Power Finance Corporation Limited reduced
+                National Aluminium Company Limited held
+                                       ITC Limited reduced
+                    Max Financial Services Limited held
+                    Tata Consumer Products Limited reduced
+                         Avenue Supermarts Limited held
+                             Ashok Leyland Limited new
+                                    Voltas Limited held
+                                 Axis Bank Limited reduced
+                    Gujarat State Petronet Limited added
+                             Titan Company Limited held
+                             Bajaj Finance Limited held
+                                     Lupin Limited new
+                              Petronet LNG Limited held
+                       Divi's Laboratories Limited held
+                                    Biocon Limited reduced
+                             Bharti Airtel Limited reduced
+                           Muthoot Finance Limited added
+                 Tata Consultancy Services Limited held
+                                Coal India Limited held
+                                     Emami Limited held
+                       Maruti Suzuki India Limited held
+                                       SRF Limited held
+                          United Breweries Limited held
+                 Prince Pipes And Fittings Limited new
+                                      NTPC Limited held
+     Adani Ports and Special Economic Zone Limited held
+               HDFC Life Insurance Company Limited reduced
+                          HCL Technologies Limited held
+                               Laurus Labs Limited reduced
+                     Reliance Industries Limited^^ exit
+                          Aurobindo Pharma Limited exit
+                                   Vedanta Limited exit
+                   Torrent Pharmaceuticals Limited exit
+select * from mutual_funds where month = 8 and fund_house = 'MAHEF'
+('Total number of stocks: ', 48)
+select * from mutual_funds where month = 7 and fund_house = 'MAHEF'
+('Total number of stocks: ', 48)
+                     Reliance Industries Limited^^ held
+   Housing Development Finance Corporation Limited added
+                       Reliance Industries Limited added
+                                   Infosys Limited held
+                               Dabur India Limited held
+                           Larsen & Toubro Limited held
+            SBI Cards and Payment Services Limited reduced
+                                  MindTree Limited held
+              Bharat Petroleum Corporation Limited added
+                        Hindustan Unilever Limited added
+                                 HDFC Bank Limited added
+             Sun Pharmaceutical Industries Limited reduced
+                               State Bank of India held
+                                Tata Steel Limited added
+                  Dr. Reddy's Laboratories Limited added
+                                ICICI Bank Limited held
+           Hindustan Petroleum Corporation Limited added
+                             IndusInd Bank Limited reduced
+                SBI Life Insurance Company Limited reduced
+                 Power Finance Corporation Limited held
+                                       ITC Limited held
+                             Havells India Limited held
+                    Max Financial Services Limited added
+                    Tata Consumer Products Limited reduced
+                         Avenue Supermarts Limited held
+                             Ashok Leyland Limited held
+                          Kajaria Ceramics Limited held
+                                    Voltas Limited held
+                                 Axis Bank Limited added
+                    Gujarat State Petronet Limited added
+                        Bharat Electronics Limited reduced
+                                     Lupin Limited new
+                       Divi's Laboratories Limited held
+                                    Biocon Limited reduced
+                             Bharti Airtel Limited added
+                          Aurobindo Pharma Limited reduced
+                 Tata Consultancy Services Limited held
+                                      CEAT Limited held
+                                     Emami Limited new
+                       Maruti Suzuki India Limited held
+                         Dr. Lal Path Labs Limited held
+                                       SRF Limited held
+           Aditya Birla Fashion and Retail Limited held
+                   Torrent Pharmaceuticals Limited held
+                                      NTPC Limited held
+                           Page Industries Limited added
+                     Balkrishna Industries Limited held
+               HDFC Life Insurance Company Limited held
+                    Indian Oil Corporation Limited exit
+                            Tata Chemicals Limited exit
+select * from mutual_funds where month = 8 and fund_house = 'MAHCF'
+('Total number of stocks: ', 27)
+select * from mutual_funds where month = 7 and fund_house = 'MAHCF'
+('Total number of stocks: ', 28)
+                           Rossari Biotech Limited added
+                             Ajanta Pharma Limited added
+             Sun Pharmaceutical Industries Limited added
+                              Sanofi India Limited held
+                                     Cipla Limited added
+                  Dr. Reddy's Laboratories Limited added
+                            Tata Chemicals Limited held
+                SBI Life Insurance Company Limited added
+                          Neogen Chemicals Limited held
+                    Max Financial Services Limited held
+                                     Lupin Limited added
+                              Abbott India Limited held
+                       Divi's Laboratories Limited added
+                                    Biocon Limited held
+                     Syngene International Limited held
+                          Aurobindo Pharma Limited added
+                           Vinati Organics Limited added
+               Apollo Hospitals Enterprise Limited added
+                        Alkem Laboratories Limited held
+                         IPCA Laboratories Limited added
+            JB Chemicals & Pharmaceuticals Limited held
+                         Dr. Lal Path Labs Limited added
+                                       SRF Limited held
+                   Torrent Pharmaceuticals Limited held
+               HDFC Life Insurance Company Limited added
+                               Laurus Labs Limited added
+                              Natco Pharma Limited held
+                         Cadila Healthcare Limited exit
+select * from mutual_funds where month = 8 and fund_house = 'MAEBF'
+('Total number of stocks: ', 48)
+select * from mutual_funds where month = 7 and fund_house = 'MAEBF'
+('Total number of stocks: ', 48)
+                     Reliance Industries Limited^^ added
+                       Reliance Industries Limited reduced
+                                   Infosys Limited added
+                               Dabur India Limited held
+                           Larsen & Toubro Limited reduced
+                                  MindTree Limited held
+                    Indian Energy Exchange Limited reduced
+              Bharat Petroleum Corporation Limited new
+                        Hindustan Unilever Limited added
+                             Ajanta Pharma Limited held
+                                 HDFC Bank Limited added
+             Sun Pharmaceutical Industries Limited reduced
+                               State Bank of India held
+                                ICICI Bank Limited added
+           Hindustan Petroleum Corporation Limited held
+Cholamandalam Investment and Finance Company Limited reduced
+                SBI Life Insurance Company Limited held
+                 Power Finance Corporation Limited reduced
+                                       ITC Limited added
+                             Havells India Limited reduced
+                    Max Financial Services Limited held
+                    Tata Consumer Products Limited reduced
+                             Ashok Leyland Limited held
+                                    Voltas Limited held
+                       Kotak Mahindra Bank Limited reduced
+                                 Axis Bank Limited held
+                    Gujarat State Petronet Limited added
+                        Bharat Electronics Limited reduced
+                                     Lupin Limited new
+                             Bharti Airtel Limited added
+                           Vinati Organics Limited held
+                 Tata Consultancy Services Limited held
+                                      CEAT Limited added
+                         TVS Motor Company Limited reduced
+                     Kansai Nerolac Paints Limited added
+                                     Emami Limited added
+                         IPCA Laboratories Limited added
+                       Maruti Suzuki India Limited held
+                         Dr. Lal Path Labs Limited held
+                                 SKF India Limited held
+                                       SRF Limited held
+                               Jyothy Labs Limited held
+                                      NTPC Limited reduced
+                           Page Industries Limited held
+                     Balkrishna Industries Limited held
+               HDFC Life Insurance Company Limited held
+                                 JK Cement Limited held
+                              Natco Pharma Limited added
+                     Syngene International Limited exit
+                            Tata Chemicals Limited exit
+select * from mutual_funds where month = 8 and fund_house = 'MAGCF'
+('Total number of stocks: ', 33)
+select * from mutual_funds where month = 7 and fund_house = 'MAGCF'
+('Total number of stocks: ', 34)
+                               Dabur India Limited held
+                        Hindustan Unilever Limited added
+                                 HDFC Bank Limited reduced
+                            VIP Industries Limited reduced
+                                ICICI Bank Limited reduced
+                SBI Life Insurance Company Limited added
+                                       ITC Limited added
+                             Havells India Limited reduced
+                    Max Financial Services Limited held
+                    Tata Consumer Products Limited reduced
+                         Avenue Supermarts Limited held
+                                    Marico Limited held
+                      Britannia Industries Limited added
+                          Kajaria Ceramics Limited held
+                                    Voltas Limited added
+                                 Axis Bank Limited held
+                              Nestle India Limited added
+                             Titan Company Limited held
+        Nippon Life India Asset Management Limited added
+                 Century Plyboards (India) Limited held
+                             Bharti Airtel Limited added
+                                      CEAT Limited added
+                         TVS Motor Company Limited reduced
+                     Kansai Nerolac Paints Limited held
+                                     Emami Limited added
+                       Maruti Suzuki India Limited reduced
+           Aditya Birla Fashion and Retail Limited held
+                               Jyothy Labs Limited held
+                          United Breweries Limited reduced
+                 Prince Pipes And Fittings Limited held
+                              TTK Prestige Limited held
+                        Whirlpool of India Limited held
+                           Page Industries Limited added
+     Crompton Greaves Consumer Electricals Limited exit
+select * from mutual_funds where month = 8 and fund_house = 'MALCF'
+('Total number of stocks: ', 48)
+select * from mutual_funds where month = 7 and fund_house = 'MALCF'
+('Total number of stocks: ', 48)
+                     Reliance Industries Limited^^ held
+   Housing Development Finance Corporation Limited reduced
+                       Reliance Industries Limited held
+                                   Infosys Limited held
+                               Dabur India Limited held
+                           Larsen & Toubro Limited held
+                              Asian Paints Limited reduced
+                    Indian Energy Exchange Limited held
+              Bharat Petroleum Corporation Limited new
+                        Hindustan Unilever Limited added
+                             Ajanta Pharma Limited reduced
+                                 HDFC Bank Limited added
+             Sun Pharmaceutical Industries Limited new
+                               State Bank of India held
+                             Eicher Motors Limited new
+                  Dr. Reddy's Laboratories Limited held
+                                ICICI Bank Limited added
+           Hindustan Petroleum Corporation Limited held
+                 Power Finance Corporation Limited held
+                                       ITC Limited held
+                             Havells India Limited reduced
+                    Max Financial Services Limited held
+                    Tata Consumer Products Limited reduced
+                         Avenue Supermarts Limited held
+                             Ashok Leyland Limited held
+                      Britannia Industries Limited held
+                          Kajaria Ceramics Limited held
+                                    Voltas Limited held
+                       Kotak Mahindra Bank Limited reduced
+                                 Axis Bank Limited added
+                        Bharat Electronics Limited held
+                             Titan Company Limited held
+                             Bajaj Finance Limited reduced
+                              Petronet LNG Limited held
+                       Divi's Laboratories Limited held
+                                    Biocon Limited held
+                             Bharti Airtel Limited added
+                           Vinati Organics Limited held
+                 Tata Consultancy Services Limited held
+                         TVS Motor Company Limited held
+                       Maruti Suzuki India Limited held
+                             PI Industries Limited held
+           Aditya Birla Fashion and Retail Limited held
+                         Info Edge (India) Limited held
+                   Torrent Pharmaceuticals Limited held
+                                      NTPC Limited held
+                     Balkrishna Industries Limited reduced
+               HDFC Life Insurance Company Limited held
+                                Tata Steel Limited exit
+                             Eicher Motors Limited exit
+                         Grasim Industries Limited exit
+select * from mutual_funds where month = 8 and fund_house = 'MAMCF'
+('Total number of stocks: ', 48)
+select * from mutual_funds where month = 7 and fund_house = 'MAMCF'
+('Total number of stocks: ', 48)
+                   L&T Technology Services Limited held
+                                  MindTree Limited reduced
+                           Rossari Biotech Limited held
+                             Ajanta Pharma Limited added
+                                   Escorts Limited held
+             Sun Pharmaceutical Industries Limited held
+                               State Bank of India added
+                                ICICI Bank Limited held
+                            Tata Chemicals Limited reduced
+           Hindustan Petroleum Corporation Limited added
+                 Power Finance Corporation Limited held
+                                   Thermax Limited held
+                         The Federal Bank  Limited held
+                    Max Financial Services Limited held
+                    Tata Consumer Products Limited reduced
+                             Ashok Leyland Limited held
+                          Kajaria Ceramics Limited held
+                                    Voltas Limited added
+                                 Axis Bank Limited added
+                    Gujarat State Petronet Limited added
+                        Bharat Electronics Limited reduced
+        Nippon Life India Asset Management Limited added
+     Crompton Greaves Consumer Electricals Limited reduced
+                 Century Plyboards (India) Limited held
+                             Bharti Airtel Limited added
+                     Syngene International Limited reduced
+               Apollo Hospitals Enterprise Limited held
+                              Bharat Forge Limited added
+                                      CEAT Limited added
+                         TVS Motor Company Limited held
+                     Kansai Nerolac Paints Limited held
+                                     Emami Limited held
+                         IPCA Laboratories Limited held
+                         Dr. Lal Path Labs Limited held
+                                 SKF India Limited held
+                                       SRF Limited held
+           Aditya Birla Fashion and Retail Limited held
+                               Jyothy Labs Limited added
+                 Prince Pipes And Fittings Limited new
+                              TTK Prestige Limited held
+                        Whirlpool of India Limited reduced
+         Shriram Transport Finance Company Limited held
+                                      NTPC Limited held
+                      Jindal Steel & Power Limited new
+                           Page Industries Limited added
+                     Balkrishna Industries Limited held
+                                 JK Cement Limited held
+                              Natco Pharma Limited added
+                         The Phoenix Mills Limited exit
+                            VIP Industries Limited exit
+select * from mutual_funds where month = 8 and fund_house = 'MAAF'
+('Total number of stocks: ', 39)
+select * from mutual_funds where month = 7 and fund_house = 'MAAF'
+('Total number of stocks: ', 36)
+   Housing Development Finance Corporation Limited added
+                       Reliance Industries Limited added
+                                   Infosys Limited added
+                               Dabur India Limited held
+              Bharat Petroleum Corporation Limited reduced
+                        Hindustan Unilever Limited new
+             Sun Pharmaceutical Industries Limited held
+                         Grasim Industries Limited new
+                               State Bank of India reduced
+                            Ambuja Cements Limited held
+                                Tata Steel Limited new
+                                ICICI Bank Limited held
+                            Tata Chemicals Limited new
+           Hindustan Petroleum Corporation Limited held
+                             IndusInd Bank Limited held
+                  Godrej Consumer Products Limited held
+                SBI Life Insurance Company Limited added
+                 Power Finance Corporation Limited reduced
+                National Aluminium Company Limited reduced
+                                       ITC Limited new
+                         The Federal Bank  Limited reduced
+                    Tata Consumer Products Limited reduced
+                             Ashok Leyland Limited reduced
+                                 Axis Bank Limited reduced
+                    Indian Oil Corporation Limited held
+                 Colgate Palmolive (India) Limited held
+                       Pidilite Industries Limited held
+                                     Lupin Limited new
+                              Petronet LNG Limited new
+                       Divi's Laboratories Limited held
+                                    Biocon Limited held
+                             Bharti Airtel Limited added
+                          Aurobindo Pharma Limited held
+                            Sun TV Network Limited held
+                 Tata Consultancy Services Limited new
+                                       SRF Limited added
+                                      NTPC Limited held
+     Adani Ports and Special Economic Zone Limited reduced
+               HDFC Life Insurance Company Limited new
+                       Maruti Suzuki India Limited exit
+                       Hindalco Industries Limited exit
+                                 JSW Steel Limited exit
+                             Titan Company Limited exit
+                                   Vedanta Limited exit
+                           Muthoot Finance Limited exit
+select * from mutual_funds where month = 8 and fund_house = 'MAFF'
+('Total number of stocks: ', 31)
+select * from mutual_funds where month = 7 and fund_house = 'MAFF'
+('Total number of stocks: ', 30)
+                     Reliance Industries Limited^^ held
+                       Reliance Industries Limited held
+                                   Infosys Limited held
+                               Dabur India Limited held
+                           Larsen & Toubro Limited held
+                    Indian Energy Exchange Limited held
+                                 HDFC Bank Limited added
+                               State Bank of India held
+                             Eicher Motors Limited new
+                                ICICI Bank Limited added
+           Hindustan Petroleum Corporation Limited held
+Cholamandalam Investment and Finance Company Limited held
+                           Orient Electric Limited added
+                    Max Financial Services Limited added
+                             Ashok Leyland Limited new
+                  Larsen & Toubro Infotech Limited reduced
+                      Britannia Industries Limited held
+                                    Voltas Limited held
+                    Gujarat State Petronet Limited added
+                        Bharat Electronics Limited held
+                             Bharti Airtel Limited new
+                     Syngene International Limited reduced
+                     Kansai Nerolac Paints Limited held
+                                     Emami Limited held
+                       Maruti Suzuki India Limited held
+                         Dr. Lal Path Labs Limited held
+                                 SKF India Limited held
+                   Torrent Pharmaceuticals Limited held
+                        Whirlpool of India Limited held
+               HDFC Life Insurance Company Limited held
+                                 JK Cement Limited held
+                             Bajaj Finance Limited exit
+                             Eicher Motors Limited exit
