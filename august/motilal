@@ -1,238 +1,1337 @@
+
+                             Long Term Equity Fund
 select * from mutual_funds where month = 8 and fund_house = 'Long Term Equity Fund'
 ('Total number of stocks: ', 31)
 select * from mutual_funds where month = 7 and fund_house = 'Long Term Equity Fund'
 ('Total number of stocks: ', 28)
-   Housing Development Finance Corporation Limited new
-                                   Infosys Limited new
-                           Larsen & Toubro Limited held
-                              Asian Paints Limited new
-                        Hindustan Unilever Limited reduced
-                                 HDFC Bank Limited held
-                            VIP Industries Limited held
-                                ICICI Bank Limited held
-Cholamandalam Investment and Finance Company Limited held
-                                       ITC Limited new
-                    Max Financial Services Limited held
-                         The Phoenix Mills Limited held
-                       Kotak Mahindra Bank Limited held
-                                 Axis Bank Limited held
-     Crompton Greaves Consumer Electricals Limited held
-                         Birla Corporation Limited held
-                              Petronet LNG Limited held
-                             Bharti Airtel Limited held
-                           Muthoot Finance Limited reduced
-                 Tata Consultancy Services Limited new
-                                  3M India Limited held
-                          UltraTech Cement Limited new
-                       Maruti Suzuki India Limited held
-                         Dr. Lal Path Labs Limited reduced
-                   Torrent Pharmaceuticals Limited reduced
-                          United Breweries Limited held
-                        Whirlpool of India Limited held
-                           Page Industries Limited reduced
-   ICICI Lombard General Insurance Company Limited held
-               HDFC Life Insurance Company Limited reduced
-                        Jubilant Foodworks Limited reduced
-                                       MRF Limited exit
-                     AU Small Finance Bank Limited exit
-                              Shree Cement Limited exit
++--------+--------+--------+--------+--------+--------+--------+--------+
+| stock_ | indust | state  | previo | curren | change | change | change |
+|  name  |   ry   |        | us_mon | t_quan | _in_qu | _in_va | _in_pe |
+|        |        |        | th_qua |  tity  | antity |  lue   | rcenta |
+|        |        |        | ntity  |        |        |  (in   | ge_of_ |
+|        |        |        |        |        |        | lacs)  |  aum   |
++========+========+========+========+========+========+========+========+
+| Housin | Financ | new    | 0      | 177000 | 177000 | 3243.7 | 2.046  |
+| g Deve | e      |        |        |        |        | 02     |        |
+| lopmen |        |        |        |        |        |        |        |
+| t Fina |        |        |        |        |        |        |        |
+| nce Co |        |        |        |        |        |        |        |
+| rporat |        |        |        |        |        |        |        |
+| ion Li |        |        |        |        |        |        |        |
+| mited  |        |        |        |        |        |        |        |
++--------+--------+--------+--------+--------+--------+--------+--------+
+| Infosy | Softwa | new    | 0      | 330000 | 330000 | 3064.3 | 1.933  |
+| s Limi | re     |        |        |        |        | 80     |        |
+| ted    |        |        |        |        |        |        |        |
++--------+--------+--------+--------+--------+--------+--------+--------+
+| Asian  | Consum | new    | 0      | 128000 | 128000 | 2430.8 | 1.533  |
+| Paints | er Non |        |        |        |        | 48     |        |
+| Limite | Durabl |        |        |        |        |        |        |
+| d      | es     |        |        |        |        |        |        |
++--------+--------+--------+--------+--------+--------+--------+--------+
+| ITC Li | Consum | new    | 0      | 115000 | 115000 | 2197.6 | 1.386  |
+| mited  | er Non |        |        | 0      | 0      | 50     |        |
+|        | Durabl |        |        |        |        |        |        |
+|        | es     |        |        |        |        |        |        |
++--------+--------+--------+--------+--------+--------+--------+--------+
+| Tata C | Softwa | new    | 0      | 204000 | 204000 | 4604.7 | 2.905  |
+| onsult | re     |        |        |        |        | 90     |        |
+| ancy S |        |        |        |        |        |        |        |
+| ervice |        |        |        |        |        |        |        |
+| s Limi |        |        |        |        |        |        |        |
+| ted    |        |        |        |        |        |        |        |
++--------+--------+--------+--------+--------+--------+--------+--------+
+| UltraT | Cement | new    | 0      | 75000  | 75000  | 2927.8 | 1.847  |
+| ech    |        |        |        |        |        | 87     |        |
+| Cement |        |        |        |        |        |        |        |
+| Limite |        |        |        |        |        |        |        |
+| d      |        |        |        |        |        |        |        |
++--------+--------+--------+--------+--------+--------+--------+--------+
+| Larsen | Constr | held   | 474225 | 474225 | 0      | 149.38 | 0.014  |
+| &      | uction |        |        |        |        | 1      |        |
+| Toubro | Projec |        |        |        |        |        |        |
+| Limite | t      |        |        |        |        |        |        |
+| d      |        |        |        |        |        |        |        |
++--------+--------+--------+--------+--------+--------+--------+--------+
+| HDFC   | Banks  | held   | 118000 | 118000 | 0      | 979.99 | 0.393  |
+| Bank L |        |        | 0      | 0      |        | 0      |        |
+| imited |        |        |        |        |        |        |        |
++--------+--------+--------+--------+--------+--------+--------+--------+
+| VIP In | Consum | held   | 945422 | 945422 | 0      | 121.48 | 0.029  |
+| dustri | er Dur |        |        |        |        | 7      |        |
+| es Lim | ables  |        |        |        |        |        |        |
+| ited   |        |        |        |        |        |        |        |
++--------+--------+--------+--------+--------+--------+--------+--------+
+| ICICI  | Banks  | held   | 319500 | 319500 | 0      | 1527.2 | 0.759  |
+| Bank L |        |        | 0      | 0      |        | 10     |        |
+| imited |        |        |        |        |        |        |        |
++--------+--------+--------+--------+--------+--------+--------+--------+
+| Cholam | Financ | held   | 175000 | 175000 | 0      | 519.75 | 0.262  |
+| andala | e      |        | 0      | 0      |        | 0      |        |
+| m Inve |        |        |        |        |        |        |        |
+| stment |        |        |        |        |        |        |        |
+| and Fi |        |        |        |        |        |        |        |
+| nance  |        |        |        |        |        |        |        |
+| Compan |        |        |        |        |        |        |        |
+| y Limi |        |        |        |        |        |        |        |
+| ted    |        |        |        |        |        |        |        |
++--------+--------+--------+--------+--------+--------+--------+--------+
+| Max Fi | Financ | held   | 846290 | 846290 | 0      | 261.08 | 0.077  |
+| nancia | e      |        |        |        |        | 0      |        |
+| l Serv |        |        |        |        |        |        |        |
+| ices L |        |        |        |        |        |        |        |
+| imited |        |        |        |        |        |        |        |
++--------+--------+--------+--------+--------+--------+--------+--------+
+| The Ph | Constr | held   | 904501 | 904501 | 0      | 251.90 | 0.056  |
+| oenix  | uction |        |        |        |        | 4      |        |
+| Mills  |        |        |        |        |        |        |        |
+| Limite |        |        |        |        |        |        |        |
+| d      |        |        |        |        |        |        |        |
++--------+--------+--------+--------+--------+--------+--------+--------+
+| Kotak  | Banks  | held   | 213000 | 213000 | 0      | 75.828 | -0.006 |
+| Mahind |        |        |        |        |        |        |        |
+| ra     |        |        |        |        |        |        |        |
+| Bank L |        |        |        |        |        |        |        |
+| imited |        |        |        |        |        |        |        |
++--------+--------+--------+--------+--------+--------+--------+--------+
+| Axis   | Banks  | held   | 137265 | 137265 | 0      | 893.59 | 0.454  |
+| Bank L |        |        | 3      | 3      |        | 7      |        |
+| imited |        |        |        |        |        |        |        |
++--------+--------+--------+--------+--------+--------+--------+--------+
+| Crompt | Consum | held   | 142369 | 142369 | 0      | 394.36 | 0.185  |
+| on Gre | er Dur |        | 8      | 8      |        | 4      |        |
+| aves C | ables  |        |        |        |        |        |        |
+| onsume |        |        |        |        |        |        |        |
+| r Elec |        |        |        |        |        |        |        |
+| trical |        |        |        |        |        |        |        |
+| s Limi |        |        |        |        |        |        |        |
+| ted    |        |        |        |        |        |        |        |
++--------+--------+--------+--------+--------+--------+--------+--------+
+| Birla  | Cement | held   | 474375 | 474375 | 0      | 80.407 | -0.002 |
+| Corpor |        |        |        |        |        |        |        |
+| ation  |        |        |        |        |        |        |        |
+| Limite |        |        |        |        |        |        |        |
+| d      |        |        |        |        |        |        |        |
++--------+--------+--------+--------+--------+--------+--------+--------+
+| Petron | Gas    | held   | 113881 | 113881 | 0      | -85.41 | -0.106 |
+| et LNG |        |        | 3      | 3      |        | 1      |        |
+| Limite |        |        |        |        |        |        |        |
+| d      |        |        |        |        |        |        |        |
++--------+--------+--------+--------+--------+--------+--------+--------+
+| Bharti | Teleco | held   | 146000 | 146000 | 0      | -609.5 | -0.534 |
+| Airtel | m - Se |        | 0      | 0      |        | 50     |        |
+| Limite | rvices |        |        |        |        |        |        |
+| d      |        |        |        |        |        |        |        |
++--------+--------+--------+--------+--------+--------+--------+--------+
+| 3M     | Commer | held   | 22000  | 22000  | 0      | -178.9 | -0.199 |
+| India  | cial S |        |        |        |        | 81     |        |
+| Limite | ervice |        |        |        |        |        |        |
+| d      | s      |        |        |        |        |        |        |
++--------+--------+--------+--------+--------+--------+--------+--------+
+| Maruti | Auto   | held   | 75000  | 75000  | 0      | 432.90 | 0.186  |
+| Suzuki |        |        |        |        |        | 0      |        |
+| India  |        |        |        |        |        |        |        |
+| Limite |        |        |        |        |        |        |        |
+| d      |        |        |        |        |        |        |        |
++--------+--------+--------+--------+--------+--------+--------+--------+
+| United | Consum | held   | 827725 | 827725 | 0      | 488.35 | 0.162  |
+| Brewer | er Non |        |        |        |        | 8      |        |
+| ies Li | Durabl |        |        |        |        |        |        |
+| mited  | es     |        |        |        |        |        |        |
++--------+--------+--------+--------+--------+--------+--------+--------+
+| Whirlp | Consum | held   | 221454 | 221454 | 0      | 107.07 | -0.017 |
+| ool of | er Dur |        |        |        |        | 3      |        |
+| India  | ables  |        |        |        |        |        |        |
+| Limite |        |        |        |        |        |        |        |
+| d      |        |        |        |        |        |        |        |
++--------+--------+--------+--------+--------+--------+--------+--------+
+| ICICI  | Financ | held   | 252255 | 252255 | 0      | -118.3 | -0.135 |
+| Lombar | e      |        |        |        |        | 08     |        |
+| d Gene |        |        |        |        |        |        |        |
+| ral In |        |        |        |        |        |        |        |
+| suranc |        |        |        |        |        |        |        |
+| e Comp |        |        |        |        |        |        |        |
+| any Li |        |        |        |        |        |        |        |
+| mited  |        |        |        |        |        |        |        |
++--------+--------+--------+--------+--------+--------+--------+--------+
+| Hindus | Consum | reduce | 480000 | 288000 | -19200 | -4509. | -3.041 |
+| tan Un | er Non | d      |        |        | 0      | 552    |        |
+| ilever | Durabl |        |        |        |        |        |        |
+| Limite | es     |        |        |        |        |        |        |
+| d      |        |        |        |        |        |        |        |
++--------+--------+--------+--------+--------+--------+--------+--------+
+| Muthoo | Financ | reduce | 690000 | 491817 | -19818 | -3149. | -2.149 |
+| t Fina | e      | d      |        |        | 3      | 309    |        |
+| nce Li |        |        |        |        |        |        |        |
+| mited  |        |        |        |        |        |        |        |
++--------+--------+--------+--------+--------+--------+--------+--------+
+| Dr.    | Health | reduce | 323525 | 258525 | -65000 | -1531. | -1.079 |
+| Lal    | care S | d      |        |        |        | 691    |        |
+| Path   | ervice |        |        |        |        |        |        |
+| Labs L | s      |        |        |        |        |        |        |
+| imited |        |        |        |        |        |        |        |
++--------+--------+--------+--------+--------+--------+--------+--------+
+| Torren | Pharma | reduce | 319451 | 283081 | -36370 | -974.4 | -0.772 |
+| t Phar | ceutic | d      |        |        |        | 13     |        |
+| maceut | als    |        |        |        |        |        |        |
+| icals  |        |        |        |        |        |        |        |
+| Limite |        |        |        |        |        |        |        |
+| d      |        |        |        |        |        |        |        |
++--------+--------+--------+--------+--------+--------+--------+--------+
+| Page I | Textil | reduce | 14950  | 14935  | -15    | -127.0 | -0.135 |
+| ndustr | e Prod | d      |        |        |        | 15     |        |
+| ies Li | ucts   |        |        |        |        |        |        |
+| mited  |        |        |        |        |        |        |        |
++--------+--------+--------+--------+--------+--------+--------+--------+
+| HDFC   | Financ | reduce | 912577 | 782577 | -13000 | -1224. | -0.878 |
+| Life I | e      | d      |        |        | 0      | 518    |        |
+| nsuran |        |        |        |        |        |        |        |
+| ce Com |        |        |        |        |        |        |        |
+| pany L |        |        |        |        |        |        |        |
+| imited |        |        |        |        |        |        |        |
++--------+--------+--------+--------+--------+--------+--------+--------+
+| Jubila | Consum | reduce | 419669 | 337669 | -82000 | -139.2 | -0.221 |
+| nt Foo | er Non | d      |        |        |        | 76     |        |
+| dworks | Durabl |        |        |        |        |        |        |
+| Limite | es     |        |        |        |        |        |        |
+| d      |        |        |        |        |        |        |        |
++--------+--------+--------+--------+--------+--------+--------+--------+
+| MRF Li | Auto A | exit   | 839    | 0      | -839   | -512.1 | -0.333 |
+| mited  | ncilla |        |        |        |        | 97     |        |
+|        | ries   |        |        |        |        |        |        |
++--------+--------+--------+--------+--------+--------+--------+--------+
+| AU     | Banks  | exit   | 304192 | 0      | -30419 | -2252. | -1.462 |
+| Small  |        |        |        |        | 2      | 390    |        |
+| Financ |        |        |        |        |        |        |        |
+| e Bank |        |        |        |        |        |        |        |
+| Limite |        |        |        |        |        |        |        |
+| d      |        |        |        |        |        |        |        |
++--------+--------+--------+--------+--------+--------+--------+--------+
+| Shree  | Cement | exit   | 13430  | 0      | -13430 | -2915. | -1.893 |
+| Cement |        |        |        |        |        | 807    |        |
+| Limite |        |        |        |        |        |        |        |
+| d      |        |        |        |        |        |        |        |
++--------+--------+--------+--------+--------+--------+--------+--------+
+
+                                      Dynamic Fund
 select * from mutual_funds where month = 8 and fund_house = 'Dynamic Fund'
 ('Total number of stocks: ', 30)
 select * from mutual_funds where month = 7 and fund_house = 'Dynamic Fund'
 ('Total number of stocks: ', 29)
-                   8.48% KARNATAKA SDL-17-Oct-2022 held
-                   8.90% TAMILNADU SDL-20-Sep-2022 held
-   Housing Development Finance Corporation Limited held
-   Housing Development Finance Corporation Limited new
-                       Reliance Industries Limited held
-                                   Infosys Limited held
-                              Asian Paints Limited held
-                        Hindustan Unilever Limited held
-                                 HDFC Bank Limited held
-                             Eicher Motors Limited new
-                                ICICI Bank Limited held
-             HDFC Asset Management Company Limited held
-                             Hero MotoCorp Limited held
-                      Britannia Industries Limited held
-                       Kotak Mahindra Bank Limited reduced
-                                 Axis Bank Limited held
-                              Nestle India Limited held
-                             Titan Company Limited held
-                             Bajaj Finance Limited held
-        Nippon Life India Asset Management Limited held
-                              Petronet LNG Limited reduced
-                             Bharti Airtel Limited held
-                           Muthoot Finance Limited added
-                 Tata Consultancy Services Limited held
-                        Alkem Laboratories Limited added
-                       Maruti Suzuki India Limited held
-   ICICI Lombard General Insurance Company Limited held
-               HDFC Life Insurance Company Limited held
-                            United Spirits Limited reduced
-                     AU Small Finance Bank Limited held
-                             Eicher Motors Limited exit
++--------+--------+--------+--------+--------+--------+--------+--------+
+| stock_ | indust | state  | previo | curren | change | change | change |
+|  name  |   ry   |        | us_mon | t_quan | _in_qu | _in_va | _in_pe |
+|        |        |        | th_qua |  tity  | antity |  lue   | rcenta |
+|        |        |        | ntity  |        |        |  (in   | ge_of_ |
+|        |        |        |        |        |        | lacs)  |  aum   |
++========+========+========+========+========+========+========+========+
+| Housin | CRISIL | new    | 0      | 500000 | 500000 | 5216.4 | 4.636  |
+| g Deve | AAA    |        |        | 0      | 0      | 35     |        |
+| lopmen |        |        |        |        |        |        |        |
+| t Fina |        |        |        |        |        |        |        |
+| nce Co |        |        |        |        |        |        |        |
+| rporat |        |        |        |        |        |        |        |
+| ion Li |        |        |        |        |        |        |        |
+| mited  |        |        |        |        |        |        |        |
++--------+--------+--------+--------+--------+--------+--------+--------+
+| Eicher | Auto   | new    | 0      | 136000 | 136000 | 2845.1 | 2.529  |
+| Motors |        |        |        |        |        | 20     |        |
+| Limite |        |        |        |        |        |        |        |
+| d      |        |        |        |        |        |        |        |
++--------+--------+--------+--------+--------+--------+--------+--------+
+| Muthoo | Financ | added  | 75000  | 113000 | 38000  | 340.47 | 0.290  |
+| t Fina | e      |        |        |        |        | 8      |        |
+| nce Li |        |        |        |        |        |        |        |
+| mited  |        |        |        |        |        |        |        |
++--------+--------+--------+--------+--------+--------+--------+--------+
+| Alkem  | Pharma | added  | 39000  | 54000  | 15000  | 432.03 | 0.371  |
+| Labora | ceutic |        |        |        |        | 9      |        |
+| tories | als    |        |        |        |        |        |        |
+| Limite |        |        |        |        |        |        |        |
+| d      |        |        |        |        |        |        |        |
++--------+--------+--------+--------+--------+--------+--------+--------+
+| 8.48%  | Sovere | held   | 300000 | 300000 | 0      | -23.05 | -0.062 |
+| KARNAT | ign    |        | 0      | 0      |        | 2      |        |
+| AKA SD |        |        |        |        |        |        |        |
+| L-17-O |        |        |        |        |        |        |        |
+| ct-202 |        |        |        |        |        |        |        |
+| 2      |        |        |        |        |        |        |        |
++--------+--------+--------+--------+--------+--------+--------+--------+
+| 8.90%  | Sovere | held   | 300000 | 300000 | 0      | -22.18 | -0.061 |
+| TAMILN | ign    |        | 0      | 0      |        | 8      |        |
+| ADU SD |        |        |        |        |        |        |        |
+| L-20-S |        |        |        |        |        |        |        |
+| ep-202 |        |        |        |        |        |        |        |
+| 2      |        |        |        |        |        |        |        |
++--------+--------+--------+--------+--------+--------+--------+--------+
+| Housin | Financ | held   | 180000 | 180000 | 0      | 91.170 | 0.040  |
+| g Deve | e      |        |        |        |        |        |        |
+| lopmen |        |        |        |        |        |        |        |
+| t Fina |        |        |        |        |        |        |        |
+| nce Co |        |        |        |        |        |        |        |
+| rporat |        |        |        |        |        |        |        |
+| ion Li |        |        |        |        |        |        |        |
+| mited  |        |        |        |        |        |        |        |
++--------+--------+--------+--------+--------+--------+--------+--------+
+| Relian | Petrol | held   | 313000 | 313000 | 0      | 42.568 | -0.044 |
+| ce Ind | eum Pr |        |        |        |        |        |        |
+| ustrie | oducts |        |        |        |        |        |        |
+| s Limi |        |        |        |        |        |        |        |
+| ted    |        |        |        |        |        |        |        |
++--------+--------+--------+--------+--------+--------+--------+--------+
+| Infosy | Softwa | held   | 362000 | 362000 | 0      | -135.3 | -0.165 |
+| s Limi | re     |        |        |        |        | 88     |        |
+| ted    |        |        |        |        |        |        |        |
++--------+--------+--------+--------+--------+--------+--------+--------+
+| Asian  | Consum | held   | 121000 | 121000 | 0      | 222.15 | 0.171  |
+| Paints | er Non |        |        |        |        | 6      |        |
+| Limite | Durabl |        |        |        |        |        |        |
+| d      | es     |        |        |        |        |        |        |
++--------+--------+--------+--------+--------+--------+--------+--------+
+| Hindus | Consum | held   | 95924  | 95924  | 0      | -88.77 | -0.106 |
+| tan Un | er Non |        |        |        |        | 8      |        |
+| ilever | Durabl |        |        |        |        |        |        |
+| Limite | es     |        |        |        |        |        |        |
+| d      |        |        |        |        |        |        |        |
++--------+--------+--------+--------+--------+--------+--------+--------+
+| HDFC   | Banks  | held   | 449000 | 449000 | 0      | 372.89 | 0.273  |
+| Bank L |        |        |        |        |        | 5      |        |
+| imited |        |        |        |        |        |        |        |
++--------+--------+--------+--------+--------+--------+--------+--------+
+| ICICI  | Banks  | held   | 163762 | 163762 | 0      | 782.78 | 0.624  |
+| Bank L |        |        | 5      | 5      |        | 5      |        |
+| imited |        |        |        |        |        |        |        |
++--------+--------+--------+--------+--------+--------+--------+--------+
+| HDFC   | Financ | held   | 30000  | 30000  | 0      | -2.625 | -0.012 |
+| Asset  | e      |        |        |        |        |        |        |
+| Manage |        |        |        |        |        |        |        |
+| ment C |        |        |        |        |        |        |        |
+| ompany |        |        |        |        |        |        |        |
+| Limite |        |        |        |        |        |        |        |
+| d      |        |        |        |        |        |        |        |
++--------+--------+--------+--------+--------+--------+--------+--------+
+| Hero M | Auto   | held   | 41000  | 41000  | 0      | 135.11 | 0.106  |
+| otoCor |        |        |        |        |        | 5      |        |
+| p Limi |        |        |        |        |        |        |        |
+| ted    |        |        |        |        |        |        |        |
++--------+--------+--------+--------+--------+--------+--------+--------+
+| Britan | Consum | held   | 63256  | 63256  | 0      | -61.70 | -0.086 |
+| nia In | er Non |        |        |        |        | 6      |        |
+| dustri | Durabl |        |        |        |        |        |        |
+| es Lim | es     |        |        |        |        |        |        |
+| ited   |        |        |        |        |        |        |        |
++--------+--------+--------+--------+--------+--------+--------+--------+
+| Axis   | Banks  | held   | 133680 | 133680 | 0      | 870.25 | 0.700  |
+| Bank L |        |        | 0      | 0      |        | 7      |        |
+| imited |        |        |        |        |        |        |        |
++--------+--------+--------+--------+--------+--------+--------+--------+
+| Nestle | Consum | held   | 10150  | 10150  | 0      | -58.12 | -0.073 |
+| India  | er Non |        |        |        |        | 4      |        |
+| Limite | Durabl |        |        |        |        |        |        |
+| d      | es     |        |        |        |        |        |        |
++--------+--------+--------+--------+--------+--------+--------+--------+
+| Titan  | Consum | held   | 176000 | 176000 | 0      | 100.76 | 0.066  |
+| Compan | er Dur |        |        |        |        | 0      |        |
+| y Limi | ables  |        |        |        |        |        |        |
+| ted    |        |        |        |        |        |        |        |
++--------+--------+--------+--------+--------+--------+--------+--------+
+| Bajaj  | Financ | held   | 90500  | 90500  | 0      | 214.03 | 0.153  |
+| Financ | e      |        |        |        |        | 2      |        |
+| e Limi |        |        |        |        |        |        |        |
+| ted    |        |        |        |        |        |        |        |
++--------+--------+--------+--------+--------+--------+--------+--------+
+| Nippon | Financ | held   | 245000 | 245000 | 0      | 16.538 | 0.006  |
+| Life   | e      |        |        |        |        |        |        |
+| India  |        |        |        |        |        |        |        |
+| Asset  |        |        |        |        |        |        |        |
+| Manage |        |        |        |        |        |        |        |
+| ment L |        |        |        |        |        |        |        |
+| imited |        |        |        |        |        |        |        |
++--------+--------+--------+--------+--------+--------+--------+--------+
+| Bharti | Teleco | held   | 483000 | 483000 | 0      | -201.6 | -0.213 |
+| Airtel | m - Se |        |        |        |        | 52     |        |
+| Limite | rvices |        |        |        |        |        |        |
+| d      |        |        |        |        |        |        |        |
++--------+--------+--------+--------+--------+--------+--------+--------+
+| Tata C | Softwa | held   | 110000 | 110000 | 0      | -26.56 | -0.055 |
+| onsult | re     |        |        |        |        | 5      |        |
+| ancy S |        |        |        |        |        |        |        |
+| ervice |        |        |        |        |        |        |        |
+| s Limi |        |        |        |        |        |        |        |
+| ted    |        |        |        |        |        |        |        |
++--------+--------+--------+--------+--------+--------+--------+--------+
+| Maruti | Auto   | held   | 52000  | 52000  | 0      | 300.14 | 0.225  |
+| Suzuki |        |        |        |        |        | 4      |        |
+| India  |        |        |        |        |        |        |        |
+| Limite |        |        |        |        |        |        |        |
+| d      |        |        |        |        |        |        |        |
++--------+--------+--------+--------+--------+--------+--------+--------+
+| ICICI  | Financ | held   | 174000 | 174000 | 0      | -81.60 | -0.101 |
+| Lombar | e      |        |        |        |        | 6      |        |
+| d Gene |        |        |        |        |        |        |        |
+| ral In |        |        |        |        |        |        |        |
+| suranc |        |        |        |        |        |        |        |
+| e Comp |        |        |        |        |        |        |        |
+| any Li |        |        |        |        |        |        |        |
+| mited  |        |        |        |        |        |        |        |
++--------+--------+--------+--------+--------+--------+--------+--------+
+| HDFC   | Financ | held   | 868000 | 868000 | 0      | -453.9 | -0.473 |
+| Life I | e      |        |        |        |        | 64     |        |
+| nsuran |        |        |        |        |        |        |        |
+| ce Com |        |        |        |        |        |        |        |
+| pany L |        |        |        |        |        |        |        |
+| imited |        |        |        |        |        |        |        |
++--------+--------+--------+--------+--------+--------+--------+--------+
+| AU     | Banks  | held   | 387000 | 387000 | 0      | -280.3 | -0.286 |
+| Small  |        |        |        |        |        | 81     |        |
+| Financ |        |        |        |        |        |        |        |
+| e Bank |        |        |        |        |        |        |        |
+| Limite |        |        |        |        |        |        |        |
+| d      |        |        |        |        |        |        |        |
++--------+--------+--------+--------+--------+--------+--------+--------+
+| Kotak  | Banks  | reduce | 181000 | 152000 | -29000 | -341.9 | -0.335 |
+| Mahind |        | d      |        |        |        | 56     |        |
+| ra     |        |        |        |        |        |        |        |
+| Bank L |        |        |        |        |        |        |        |
+| imited |        |        |        |        |        |        |        |
++--------+--------+--------+--------+--------+--------+--------+--------+
+| Petron | Gas    | reduce | 644000 | 594000 | -50000 | -168.4 | -0.170 |
+| et LNG |        | d      |        |        |        | 75     |        |
+| Limite |        |        |        |        |        |        |        |
+| d      |        |        |        |        |        |        |        |
++--------+--------+--------+--------+--------+--------+--------+--------+
+| United | Consum | reduce | 402000 | 356000 | -46000 | -390.3 | -0.377 |
+| Spirit | er Non | d      |        |        |        | 50     |        |
+| s Limi | Durabl |        |        |        |        |        |        |
+| ted    | es     |        |        |        |        |        |        |
++--------+--------+--------+--------+--------+--------+--------+--------+
+| Eicher | Auto   | exit   | 13600  | 0      | -13600 | -2806. | -2.530 |
+| Motors |        |        |        |        |        | 863    |        |
+| Limite |        |        |        |        |        |        |        |
+| d      |        |        |        |        |        |        |        |
++--------+--------+--------+--------+--------+--------+--------+--------+
+
+                               Large & Midcap Fund
 select * from mutual_funds where month = 8 and fund_house = 'Large & Midcap Fund'
 ('Total number of stocks: ', 30)
 select * from mutual_funds where month = 7 and fund_house = 'Large & Midcap Fund'
 ('Total number of stocks: ', 26)
-   Housing Development Finance Corporation Limited held
-                                   Infosys Limited new
-                           Larsen & Toubro Limited reduced
-                              Asian Paints Limited new
-                        Hindustan Unilever Limited reduced
-                                 HDFC Bank Limited held
-                            VIP Industries Limited held
-                                ICICI Bank Limited held
-Cholamandalam Investment and Finance Company Limited held
-                    Max Financial Services Limited held
-                         The Phoenix Mills Limited held
-                          Kajaria Ceramics Limited held
-                       Kotak Mahindra Bank Limited held
-                                 Axis Bank Limited held
-     Crompton Greaves Consumer Electricals Limited held
-                         Birla Corporation Limited held
-                             Bharti Airtel Limited held
-                           Muthoot Finance Limited reduced
-                 Tata Consultancy Services Limited new
-                                  3M India Limited reduced
-                       Maruti Suzuki India Limited held
-                         Dr. Lal Path Labs Limited held
-                   Torrent Pharmaceuticals Limited reduced
-                          United Breweries Limited held
-                        Whirlpool of India Limited held
-                           Page Industries Limited held
-                     Balkrishna Industries Limited held
-                        Jubilant Foodworks Limited reduced
-                               Gujarat Gas Limited new
-                                       MRF Limited reduced
++--------+--------+--------+--------+--------+--------+--------+--------+
+| stock_ | indust | state  | previo | curren | change | change | change |
+|  name  |   ry   |        | us_mon | t_quan | _in_qu | _in_va | _in_pe |
+|        |        |        | th_qua |  tity  | antity |  lue   | rcenta |
+|        |        |        | ntity  |        |        |  (in   | ge_of_ |
+|        |        |        |        |        |        | lacs)  |  aum   |
++========+========+========+========+========+========+========+========+
+| Infosy | Softwa | new    | 0      | 98000  | 98000  | 910.02 | 1.912  |
+| s Limi | re     |        |        |        |        | 8      |        |
+| ted    |        |        |        |        |        |        |        |
++--------+--------+--------+--------+--------+--------+--------+--------+
+| Asian  | Consum | new    | 0      | 38000  | 38000  | 721.65 | 1.517  |
+| Paints | er Non |        |        |        |        | 8      |        |
+| Limite | Durabl |        |        |        |        |        |        |
+| d      | es     |        |        |        |        |        |        |
++--------+--------+--------+--------+--------+--------+--------+--------+
+| Tata C | Softwa | new    | 0      | 57000  | 57000  | 1286.6 | 2.704  |
+| onsult | re     |        |        |        |        | 32     |        |
+| ancy S |        |        |        |        |        |        |        |
+| ervice |        |        |        |        |        |        |        |
+| s Limi |        |        |        |        |        |        |        |
+| ted    |        |        |        |        |        |        |        |
++--------+--------+--------+--------+--------+--------+--------+--------+
+| Gujara | Gas    | new    | 0      | 310000 | 310000 | 1008.8 | 2.120  |
+| t Gas  |        |        |        |        |        | 95     |        |
+| Limite |        |        |        |        |        |        |        |
+| d      |        |        |        |        |        |        |        |
++--------+--------+--------+--------+--------+--------+--------+--------+
+| Housin | Financ | held   | 48000  | 48000  | 0      | 24.312 | -0.011 |
+| g Deve | e      |        |        |        |        |        |        |
+| lopmen |        |        |        |        |        |        |        |
+| t Fina |        |        |        |        |        |        |        |
+| nce Co |        |        |        |        |        |        |        |
+| rporat |        |        |        |        |        |        |        |
+| ion Li |        |        |        |        |        |        |        |
+| mited  |        |        |        |        |        |        |        |
++--------+--------+--------+--------+--------+--------+--------+--------+
+| HDFC   | Banks  | held   | 310000 | 310000 | 0      | 257.45 | 0.309  |
+| Bank L |        |        |        |        |        | 5      |        |
+| imited |        |        |        |        |        |        |        |
++--------+--------+--------+--------+--------+--------+--------+--------+
+| VIP In | Consum | held   | 404567 | 404567 | 0      | 51.987 | 0.030  |
+| dustri | er Dur |        |        |        |        |        |        |
+| es Lim | ables  |        |        |        |        |        |        |
+| ited   |        |        |        |        |        |        |        |
++--------+--------+--------+--------+--------+--------+--------+--------+
+| ICICI  | Banks  | held   | 880000 | 880000 | 0      | 420.64 | 0.663  |
+| Bank L |        |        |        |        |        | 0      |        |
+| imited |        |        |        |        |        |        |        |
++--------+--------+--------+--------+--------+--------+--------+--------+
+| Cholam | Financ | held   | 533780 | 533780 | 0      | 158.53 | 0.255  |
+| andala | e      |        |        |        |        | 3      |        |
+| m Inve |        |        |        |        |        |        |        |
+| stment |        |        |        |        |        |        |        |
+| and Fi |        |        |        |        |        |        |        |
+| nance  |        |        |        |        |        |        |        |
+| Compan |        |        |        |        |        |        |        |
+| y Limi |        |        |        |        |        |        |        |
+| ted    |        |        |        |        |        |        |        |
++--------+--------+--------+--------+--------+--------+--------+--------+
+| Max Fi | Financ | held   | 510000 | 510000 | 0      | 157.33 | 0.124  |
+| nancia | e      |        |        |        |        | 5      |        |
+| l Serv |        |        |        |        |        |        |        |
+| ices L |        |        |        |        |        |        |        |
+| imited |        |        |        |        |        |        |        |
++--------+--------+--------+--------+--------+--------+--------+--------+
+| The Ph | Constr | held   | 251046 | 251046 | 0      | 69.916 | 0.035  |
+| oenix  | uction |        |        |        |        |        |        |
+| Mills  |        |        |        |        |        |        |        |
+| Limite |        |        |        |        |        |        |        |
+| d      |        |        |        |        |        |        |        |
++--------+--------+--------+--------+--------+--------+--------+--------+
+| Kajari | Constr | held   | 240000 | 240000 | 0      | 73.800 | 0.085  |
+| a Cera | uction |        |        |        |        |        |        |
+| mics L |        |        |        |        |        |        |        |
+| imited |        |        |        |        |        |        |        |
++--------+--------+--------+--------+--------+--------+--------+--------+
+| Kotak  | Banks  | held   | 65000  | 65000  | 0      | 23.140 | -0.016 |
+| Mahind |        |        |        |        |        |        |        |
+| ra     |        |        |        |        |        |        |        |
+| Bank L |        |        |        |        |        |        |        |
+| imited |        |        |        |        |        |        |        |
++--------+--------+--------+--------+--------+--------+--------+--------+
+| Axis   | Banks  | held   | 330000 | 330000 | 0      | 214.83 | 0.348  |
+| Bank L |        |        |        |        |        | 0      |        |
+| imited |        |        |        |        |        |        |        |
++--------+--------+--------+--------+--------+--------+--------+--------+
+| Crompt | Consum | held   | 490513 | 490513 | 0      | 135.87 | 0.199  |
+| on Gre | er Dur |        |        |        |        | 2      |        |
+| aves C | ables  |        |        |        |        |        |        |
+| onsume |        |        |        |        |        |        |        |
+| r Elec |        |        |        |        |        |        |        |
+| trical |        |        |        |        |        |        |        |
+| s Limi |        |        |        |        |        |        |        |
+| ted    |        |        |        |        |        |        |        |
++--------+--------+--------+--------+--------+--------+--------+--------+
+| Birla  | Cement | held   | 219000 | 219000 | 0      | 37.120 | -0.017 |
+| Corpor |        |        |        |        |        |        |        |
+| ation  |        |        |        |        |        |        |        |
+| Limite |        |        |        |        |        |        |        |
+| d      |        |        |        |        |        |        |        |
++--------+--------+--------+--------+--------+--------+--------+--------+
+| Bharti | Teleco | held   | 435000 | 435000 | 0      | -181.6 | -0.556 |
+| Airtel | m - Se |        |        |        |        | 12     |        |
+| Limite | rvices |        |        |        |        |        |        |
+| d      |        |        |        |        |        |        |        |
++--------+--------+--------+--------+--------+--------+--------+--------+
+| Maruti | Auto   | held   | 14800  | 14800  | 0      | 85.426 | 0.112  |
+| Suzuki |        |        |        |        |        |        |        |
+| India  |        |        |        |        |        |        |        |
+| Limite |        |        |        |        |        |        |        |
+| d      |        |        |        |        |        |        |        |
++--------+--------+--------+--------+--------+--------+--------+--------+
+| Dr.    | Health | held   | 100790 | 100790 | 0      | -117.7 | -0.386 |
+| Lal    | care S |        |        |        |        | 73     |        |
+| Path   | ervice |        |        |        |        |        |        |
+| Labs L | s      |        |        |        |        |        |        |
+| imited |        |        |        |        |        |        |        |
++--------+--------+--------+--------+--------+--------+--------+--------+
+| United | Consum | held   | 194000 | 194000 | 0      | 114.46 | 0.107  |
+| Brewer | er Non |        |        |        |        | 0      |        |
+| ies Li | Durabl |        |        |        |        |        |        |
+| mited  | es     |        |        |        |        |        |        |
++--------+--------+--------+--------+--------+--------+--------+--------+
+| Whirlp | Consum | held   | 79718  | 79718  | 0      | 38.544 | -0.039 |
+| ool of | er Dur |        |        |        |        |        |        |
+| India  | ables  |        |        |        |        |        |        |
+| Limite |        |        |        |        |        |        |        |
+| d      |        |        |        |        |        |        |        |
++--------+--------+--------+--------+--------+--------+--------+--------+
+| Page I | Textil | held   | 4450   | 4450   | 0      | -36.95 | -0.142 |
+| ndustr | e Prod |        |        |        |        | 9      |        |
+| ies Li | ucts   |        |        |        |        |        |        |
+| mited  |        |        |        |        |        |        |        |
++--------+--------+--------+--------+--------+--------+--------+--------+
+| Balkri | Auto A | held   | 72385  | 72385  | 0      | -0.109 | -0.070 |
+| shna I | ncilla |        |        |        |        |        |        |
+| ndustr | ries   |        |        |        |        |        |        |
+| ies Li |        |        |        |        |        |        |        |
+| mited  |        |        |        |        |        |        |        |
++--------+--------+--------+--------+--------+--------+--------+--------+
+| Larsen | Constr | reduce | 137000 | 127000 | -10000 | -51.34 | -0.199 |
+| &      | uction | d      |        |        |        | 0      |        |
+| Toubro | Projec |        |        |        |        |        |        |
+| Limite | t      |        |        |        |        |        |        |
+| d      |        |        |        |        |        |        |        |
++--------+--------+--------+--------+--------+--------+--------+--------+
+| Hindus | Consum | reduce | 147000 | 84000  | -63000 | -1469. | -3.324 |
+| tan Un | er Non | d      |        |        |        | 979    |        |
+| ilever | Durabl |        |        |        |        |        |        |
+| Limite | es     |        |        |        |        |        |        |
+| d      |        |        |        |        |        |        |        |
++--------+--------+--------+--------+--------+--------+--------+--------+
+| Muthoo | Financ | reduce | 184891 | 148171 | -36720 | -655.9 | -1.549 |
+| t Fina | e      | d      |        |        |        | 91     |        |
+| nce Li |        |        |        |        |        |        |        |
+| mited  |        |        |        |        |        |        |        |
++--------+--------+--------+--------+--------+--------+--------+--------+
+| 3M     | Commer | reduce | 8565   | 7451   | -1114  | -295.4 | -0.752 |
+| India  | cial S | d      |        |        |        | 27     |        |
+| Limite | ervice |        |        |        |        |        |        |
+| d      | s      |        |        |        |        |        |        |
++--------+--------+--------+--------+--------+--------+--------+--------+
+| Torren | Pharma | reduce | 106943 | 82943  | -24000 | -640.9 | -1.553 |
+| t Phar | ceutic | d      |        |        |        | 23     |        |
+| maceut | als    |        |        |        |        |        |        |
+| icals  |        |        |        |        |        |        |        |
+| Limite |        |        |        |        |        |        |        |
+| d      |        |        |        |        |        |        |        |
++--------+--------+--------+--------+--------+--------+--------+--------+
+| Jubila | Consum | reduce | 127714 | 100714 | -27000 | -85.28 | -0.338 |
+| nt Foo | er Non | d      |        |        |        | 3      |        |
+| dworks | Durabl |        |        |        |        |        |        |
+| Limite | es     |        |        |        |        |        |        |
+| d      |        |        |        |        |        |        |        |
++--------+--------+--------+--------+--------+--------+--------+--------+
+| MRF Li | Auto A | reduce | 1965   | 1715   | -250   | -205.1 | -0.518 |
+| mited  | ncilla | d      |        |        |        | 19     |        |
+|        | ries   |        |        |        |        |        |        |
++--------+--------+--------+--------+--------+--------+--------+--------+
+
+                                  Multicap 35 Fund
 select * from mutual_funds where month = 8 and fund_house = 'Multicap 35 Fund'
 ('Total number of stocks: ', 26)
 select * from mutual_funds where month = 7 and fund_house = 'Multicap 35 Fund'
 ('Total number of stocks: ', 26)
-   Housing Development Finance Corporation Limited reduced
-                       Reliance Industries Limited held
-                                   Infosys Limited held
-                              Asian Paints Limited reduced
-                        Hindustan Unilever Limited reduced
-                                 HDFC Bank Limited reduced
-                             Eicher Motors Limited new
-             HDFC Asset Management Company Limited held
-                             Hero MotoCorp Limited added
-                      Britannia Industries Limited held
-                       Kotak Mahindra Bank Limited reduced
-                              Nestle India Limited held
-                             Titan Company Limited reduced
-                             Bajaj Finance Limited held
-        Nippon Life India Asset Management Limited held
-                              Petronet LNG Limited reduced
-                             Bharti Airtel Limited held
-                           Muthoot Finance Limited added
-                 Tata Consultancy Services Limited held
-                        Alkem Laboratories Limited added
-                       Maruti Suzuki India Limited held
-   ICICI Lombard General Insurance Company Limited held
-               HDFC Life Insurance Company Limited held
-                            United Spirits Limited reduced
-                            Vaibhav Global Limited added
-                     AU Small Finance Bank Limited held
-                             Eicher Motors Limited exit
++--------+--------+--------+--------+--------+--------+--------+--------+
+| stock_ | indust | state  | previo | curren | change | change | change |
+|  name  |   ry   |        | us_mon | t_quan | _in_qu | _in_va | _in_pe |
+|        |        |        | th_qua |  tity  | antity |  lue   | rcenta |
+|        |        |        | ntity  |        |        |  (in   | ge_of_ |
+|        |        |        |        |        |        | lacs)  |  aum   |
++========+========+========+========+========+========+========+========+
+| Eicher | Auto   | new    | 0      | 240000 | 240000 | 50208  | 4.467  |
+| Motors |        |        |        | 0      | 0      |        |        |
+| Limite |        |        |        |        |        |        |        |
+| d      |        |        |        |        |        |        |        |
++--------+--------+--------+--------+--------+--------+--------+--------+
+| Hero M | Auto   | added  | 700000 | 950000 | 250000 | 9821.9 | 0.880  |
+| otoCor |        |        |        |        |        | 75     |        |
+| p Limi |        |        |        |        |        |        |        |
+| ted    |        |        |        |        |        |        |        |
++--------+--------+--------+--------+--------+--------+--------+--------+
+| Muthoo | Financ | added  | 120000 | 300000 | 180000 | 19116. | 1.706  |
+| t Fina | e      |        | 0      | 0      | 0      | 900    |        |
+| nce Li |        |        |        |        |        |        |        |
+| mited  |        |        |        |        |        |        |        |
++--------+--------+--------+--------+--------+--------+--------+--------+
+| Alkem  | Pharma | added  | 650000 | 900000 | 250000 | 7200.6 | 0.646  |
+| Labora | ceutic |        |        |        |        | 50     |        |
+| tories | als    |        |        |        |        |        |        |
+| Limite |        |        |        |        |        |        |        |
+| d      |        |        |        |        |        |        |        |
++--------+--------+--------+--------+--------+--------+--------+--------+
+| Vaibha | Retail | added  | 290000 | 310000 | 200000 | 13517. | 1.215  |
+| v      | ing    |        | 0      | 0      |        | 500    |        |
+| Global |        |        |        |        |        |        |        |
+| Limite |        |        |        |        |        |        |        |
+| d      |        |        |        |        |        |        |        |
++--------+--------+--------+--------+--------+--------+--------+--------+
+| Relian | Petrol | held   | 510000 | 510000 | 0      | 693.60 | 0.095  |
+| ce Ind | eum Pr |        | 0      | 0      |        | 0      |        |
+| ustrie | oducts |        |        |        |        |        |        |
+| s Limi |        |        |        |        |        |        |        |
+| ted    |        |        |        |        |        |        |        |
++--------+--------+--------+--------+--------+--------+--------+--------+
+| Infosy | Softwa | held   | 600000 | 600000 | 0      | -2244  | -0.182 |
+| s Limi | re     |        | 0      | 0      |        |        |        |
+| ted    |        |        |        |        |        |        |        |
++--------+--------+--------+--------+--------+--------+--------+--------+
+| HDFC   | Financ | held   | 500000 | 500000 | 0      | -43.75 | -0.000 |
+| Asset  | e      |        |        |        |        | 0      |        |
+| Manage |        |        |        |        |        |        |        |
+| ment C |        |        |        |        |        |        |        |
+| ompany |        |        |        |        |        |        |        |
+| Limite |        |        |        |        |        |        |        |
+| d      |        |        |        |        |        |        |        |
++--------+--------+--------+--------+--------+--------+--------+--------+
+| Britan | Consum | held   | 110000 | 110000 | 0      | -1073. | -0.082 |
+| nia In | er Non |        | 0      | 0      |        | 050    |        |
+| dustri | Durabl |        |        |        |        |        |        |
+| es Lim | es     |        |        |        |        |        |        |
+| ited   |        |        |        |        |        |        |        |
++--------+--------+--------+--------+--------+--------+--------+--------+
+| Nestle | Consum | held   | 165000 | 165000 | 0      | -944.8 | -0.076 |
+| India  | er Non |        |        |        |        | 73     |        |
+| Limite | Durabl |        |        |        |        |        |        |
+| d      | es     |        |        |        |        |        |        |
++--------+--------+--------+--------+--------+--------+--------+--------+
+| Bajaj  | Financ | held   | 150000 | 150000 | 0      | 3547.5 | 0.331  |
+| Financ | e      |        | 0      | 0      |        | 00     |        |
+| e Limi |        |        |        |        |        |        |        |
+| ted    |        |        |        |        |        |        |        |
++--------+--------+--------+--------+--------+--------+--------+--------+
+| Nippon | Financ | held   | 400000 | 400000 | 0      | 270    | 0.027  |
+| Life   | e      |        | 0      | 0      |        |        |        |
+| India  |        |        |        |        |        |        |        |
+| Asset  |        |        |        |        |        |        |        |
+| Manage |        |        |        |        |        |        |        |
+| ment L |        |        |        |        |        |        |        |
+| imited |        |        |        |        |        |        |        |
++--------+--------+--------+--------+--------+--------+--------+--------+
+| Bharti | Teleco | held   | 830000 | 830000 | 0      | -3465. | -0.294 |
+| Airtel | m - Se |        | 0      | 0      |        | 250    |        |
+| Limite | rvices |        |        |        |        |        |        |
+| d      |        |        |        |        |        |        |        |
++--------+--------+--------+--------+--------+--------+--------+--------+
+| Tata C | Softwa | held   | 180000 | 180000 | 0      | -434.7 | -0.026 |
+| onsult | re     |        | 0      | 0      |        | 00     |        |
+| ancy S |        |        |        |        |        |        |        |
+| ervice |        |        |        |        |        |        |        |
+| s Limi |        |        |        |        |        |        |        |
+| ted    |        |        |        |        |        |        |        |
++--------+--------+--------+--------+--------+--------+--------+--------+
+| Maruti | Auto   | held   | 900000 | 900000 | 0      | 5194.8 | 0.480  |
+| Suzuki |        |        |        |        |        | 00     |        |
+| India  |        |        |        |        |        |        |        |
+| Limite |        |        |        |        |        |        |        |
+| d      |        |        |        |        |        |        |        |
++--------+--------+--------+--------+--------+--------+--------+--------+
+| ICICI  | Financ | held   | 300000 | 300000 | 0      | -1407  | -0.113 |
+| Lombar | e      |        | 0      | 0      |        |        |        |
+| d Gene |        |        |        |        |        |        |        |
+| ral In |        |        |        |        |        |        |        |
+| suranc |        |        |        |        |        |        |        |
+| e Comp |        |        |        |        |        |        |        |
+| any Li |        |        |        |        |        |        |        |
+| mited  |        |        |        |        |        |        |        |
++--------+--------+--------+--------+--------+--------+--------+--------+
+| HDFC   | Financ | held   | 148000 | 148000 | 0      | -7740. | -0.660 |
+| Life I | e      |        | 00     | 00     |        | 400    |        |
+| nsuran |        |        |        |        |        |        |        |
+| ce Com |        |        |        |        |        |        |        |
+| pany L |        |        |        |        |        |        |        |
+| imited |        |        |        |        |        |        |        |
++--------+--------+--------+--------+--------+--------+--------+--------+
+| AU     | Banks  | held   | 650000 | 650000 | 0      | -4709. | -0.404 |
+| Small  |        |        | 0      | 0      |        | 250    |        |
+| Financ |        |        |        |        |        |        |        |
+| e Bank |        |        |        |        |        |        |        |
+| Limite |        |        |        |        |        |        |        |
+| d      |        |        |        |        |        |        |        |
++--------+--------+--------+--------+--------+--------+--------+--------+
+| Housin | Financ | reduce | 300000 | 290000 | -10000 | -313.1 | -0.011 |
+| g Deve | e      | d      | 0      | 0      | 0      | 00     |        |
+| lopmen |        |        |        |        |        |        |        |
+| t Fina |        |        |        |        |        |        |        |
+| nce Co |        |        |        |        |        |        |        |
+| rporat |        |        |        |        |        |        |        |
+| ion Li |        |        |        |        |        |        |        |
+| mited  |        |        |        |        |        |        |        |
++--------+--------+--------+--------+--------+--------+--------+--------+
+| Asian  | Consum | reduce | 200000 | 150000 | -50000 | -5823. | -0.507 |
+| Paints | er Non | d      | 0      | 0      | 0      | 500    |        |
+| Limite | Durabl |        |        |        |        |        |        |
+| d      | es     |        |        |        |        |        |        |
++--------+--------+--------+--------+--------+--------+--------+--------+
+| Hindus | Consum | reduce | 160000 | 150000 | -10000 | -3598. | -0.309 |
+| tan Un | er Non | d      | 0      | 0      | 0      | 150    |        |
+| ilever | Durabl |        |        |        |        |        |        |
+| Limite | es     |        |        |        |        |        |        |
+| d      |        |        |        |        |        |        |        |
++--------+--------+--------+--------+--------+--------+--------+--------+
+| HDFC   | Banks  | reduce | 750000 | 730000 | -20000 | 3997.0 | 0.380  |
+| Bank L |        | d      | 0      | 0      | 0      | 50     |        |
+| imited |        |        |        |        |        |        |        |
++--------+--------+--------+--------+--------+--------+--------+--------+
+| Kotak  | Banks  | reduce | 300000 | 250000 | -50000 | -5938. | -0.516 |
+| Mahind |        | d      | 0      | 0      | 0      | 750    |        |
+| ra     |        |        |        |        |        |        |        |
+| Bank L |        |        |        |        |        |        |        |
+| imited |        |        |        |        |        |        |        |
++--------+--------+--------+--------+--------+--------+--------+--------+
+| Titan  | Consum | reduce | 292349 | 200000 | -92349 | -8489. | -0.746 |
+| Compan | er Dur | d      | 0      | 0      | 0      | 309    |        |
+| y Limi | ables  |        |        |        |        |        |        |
+| ted    |        |        |        |        |        |        |        |
++--------+--------+--------+--------+--------+--------+--------+--------+
+| Petron | Gas    | reduce | 112500 | 100000 | -12500 | -3848. | -0.334 |
+| et LNG |        | d      | 00     | 00     | 00     | 125    |        |
+| Limite |        |        |        |        |        |        |        |
+| d      |        |        |        |        |        |        |        |
++--------+--------+--------+--------+--------+--------+--------+--------+
+| United | Consum | reduce | 700000 | 450000 | -25000 | -16084 | -1.418 |
+| Spirit | er Non | d      | 0      | 0      | 00     | .750   |        |
+| s Limi | Durabl |        |        |        |        |        |        |
+| ted    | es     |        |        |        |        |        |        |
++--------+--------+--------+--------+--------+--------+--------+--------+
+| Eicher | Auto   | exit   | 240000 | 0      | -24000 | -49532 | -4.391 |
+| Motors |        |        |        |        | 0      | .880   |        |
+| Limite |        |        |        |        |        |        |        |
+| d      |        |        |        |        |        |        |        |
++--------+--------+--------+--------+--------+--------+--------+--------+
+
+                                   Focused 25 Fund
 select * from mutual_funds where month = 8 and fund_house = 'Focused 25 Fund'
 ('Total number of stocks: ', 25)
 select * from mutual_funds where month = 7 and fund_house = 'Focused 25 Fund'
 ('Total number of stocks: ', 24)
-   Housing Development Finance Corporation Limited added
-                       Reliance Industries Limited reduced
-                                    CRISIL Limited reduced
-                                   Infosys Limited added
-                        Hindustan Unilever Limited new
-                                 HDFC Bank Limited reduced
-                             Eicher Motors Limited new
-                              Shree Cement Limited held
-                  Dr. Reddy's Laboratories Limited held
-                                ICICI Bank Limited held
-            Container Corporation of India Limited reduced
-                                 ABB India Limited held
-                         Avenue Supermarts Limited reduced
-                   Procter & Gamble Health Limited held
-                      Britannia Industries Limited held
-                       Kotak Mahindra Bank Limited held
-                              Abbott India Limited reduced
-                             Bharti Airtel Limited held
-                 Tata Consultancy Services Limited added
-                          UltraTech Cement Limited held
-                       Maruti Suzuki India Limited held
-                             PI Industries Limited reduced
-   ICICI Lombard General Insurance Company Limited held
-                        Mahindra Logistics Limited held
-               HDFC Life Insurance Company Limited reduced
-                             Eicher Motors Limited exit
++--------+--------+--------+--------+--------+--------+--------+--------+
+| stock_ | indust | state  | previo | curren | change | change | change |
+|  name  |   ry   |        | us_mon | t_quan | _in_qu | _in_va | _in_pe |
+|        |        |        | th_qua |  tity  | antity |  lue   | rcenta |
+|        |        |        | ntity  |        |        |  (in   | ge_of_ |
+|        |        |        |        |        |        | lacs)  |  aum   |
++========+========+========+========+========+========+========+========+
+| Hindus | Consum | new    | 0      | 131000 | 131000 | 2773.7 | 2.193  |
+| tan Un | er Non |        |        |        |        | 29     |        |
+| ilever | Durabl |        |        |        |        |        |        |
+| Limite | es     |        |        |        |        |        |        |
+| d      |        |        |        |        |        |        |        |
++--------+--------+--------+--------+--------+--------+--------+--------+
+| Eicher | Auto   | new    | 0      | 166980 | 166980 | 3493.2 | 2.762  |
+| Motors |        |        |        |        |        | 22     |        |
+| Limite |        |        |        |        |        |        |        |
+| d      |        |        |        |        |        |        |        |
++--------+--------+--------+--------+--------+--------+--------+--------+
+| Housin | Financ | added  | 524000 | 602000 | 78000  | 1694.8 | 1.192  |
+| g Deve | e      |        |        |        |        | 34     |        |
+| lopmen |        |        |        |        |        |        |        |
+| t Fina |        |        |        |        |        |        |        |
+| nce Co |        |        |        |        |        |        |        |
+| rporat |        |        |        |        |        |        |        |
+| ion Li |        |        |        |        |        |        |        |
+| mited  |        |        |        |        |        |        |        |
++--------+--------+--------+--------+--------+--------+--------+--------+
+| Infosy | Softwa | added  | 320000 | 653000 | 333000 | 2972.5 | 2.301  |
+| s Limi | re     |        |        |        |        | 58     |        |
+| ted    |        |        |        |        |        |        |        |
++--------+--------+--------+--------+--------+--------+--------+--------+
+| Tata C | Softwa | added  | 328085 | 379085 | 51000  | 1071.9 | 0.729  |
+| onsult | re     |        |        |        |        | 65     |        |
+| ancy S |        |        |        |        |        |        |        |
+| ervice |        |        |        |        |        |        |        |
+| s Limi |        |        |        |        |        |        |        |
+| ted    |        |        |        |        |        |        |        |
++--------+--------+--------+--------+--------+--------+--------+--------+
+| Shree  | Cement | held   | 17772  | 17772  | 0      | -253.8 | -0.262 |
+| Cement |        |        |        |        |        | 11     |        |
+| Limite |        |        |        |        |        |        |        |
+| d      |        |        |        |        |        |        |        |
++--------+--------+--------+--------+--------+--------+--------+--------+
+| Dr. Re | Pharma | held   | 74076  | 74076  | 0      | -189.8 | -0.203 |
+| ddy's  | ceutic |        |        |        |        | 94     |        |
+| Labora | als    |        |        |        |        |        |        |
+| tories |        |        |        |        |        |        |        |
+| Limite |        |        |        |        |        |        |        |
+| d      |        |        |        |        |        |        |        |
++--------+--------+--------+--------+--------+--------+--------+--------+
+| ICICI  | Banks  | held   | 146497 | 146497 | 0      | 700.25 | 0.473  |
+| Bank L |        |        | 5      | 5      |        | 8      |        |
+| imited |        |        |        |        |        |        |        |
++--------+--------+--------+--------+--------+--------+--------+--------+
+| ABB    | Indust | held   | 361740 | 361740 | 0      | 201.85 | 0.108  |
+| India  | rial C |        |        |        |        | 1      |        |
+| Limite | apital |        |        |        |        |        |        |
+| d      | Goods  |        |        |        |        |        |        |
++--------+--------+--------+--------+--------+--------+--------+--------+
+| Procte | Pharma | held   | 100781 | 100781 | 0      | 648.92 | 0.447  |
+| r &    | ceutic |        |        |        |        | 9      |        |
+| Gamble | als    |        |        |        |        |        |        |
+| Health |        |        |        |        |        |        |        |
+| Limite |        |        |        |        |        |        |        |
+| d      |        |        |        |        |        |        |        |
++--------+--------+--------+--------+--------+--------+--------+--------+
+| Britan | CRISIL | held   | 119829 | 119829 | 0      | -0.126 | -0.001 |
+| nia In | AAA    |        |        |        |        |        |        |
+| dustri |        |        |        |        |        |        |        |
+| es Lim |        |        |        |        |        |        |        |
+| ited   |        |        |        |        |        |        |        |
++--------+--------+--------+--------+--------+--------+--------+--------+
+| Kotak  | Banks  | held   | 713438 | 713438 | 0      | 253.98 | 0.047  |
+| Mahind |        |        |        |        |        | 4      |        |
+| ra     |        |        |        |        |        |        |        |
+| Bank L |        |        |        |        |        |        |        |
+| imited |        |        |        |        |        |        |        |
++--------+--------+--------+--------+--------+--------+--------+--------+
+| Bharti | Teleco | held   | 179965 | 179965 | 0      | -75.13 | -0.075 |
+| Airtel | m - Se |        |        |        |        | 5      |        |
+| Limite | rvices |        |        |        |        |        |        |
+| d      |        |        |        |        |        |        |        |
++--------+--------+--------+--------+--------+--------+--------+--------+
+| UltraT | Cement | held   | 30034  | 30034  | 0      | -64.10 | -0.070 |
+| ech    |        |        |        |        |        | 8      |        |
+| Cement |        |        |        |        |        |        |        |
+| Limite |        |        |        |        |        |        |        |
+| d      |        |        |        |        |        |        |        |
++--------+--------+--------+--------+--------+--------+--------+--------+
+| Maruti | Auto   | held   | 52169  | 52169  | 0      | 301.11 | 0.186  |
+| Suzuki |        |        |        |        |        | 9      |        |
+| India  |        |        |        |        |        |        |        |
+| Limite |        |        |        |        |        |        |        |
+| d      |        |        |        |        |        |        |        |
++--------+--------+--------+--------+--------+--------+--------+--------+
+| ICICI  | Financ | held   | 232710 | 232710 | 0      | -109.1 | -0.134 |
+| Lombar | e      |        |        |        |        | 41     |        |
+| d Gene |        |        |        |        |        |        |        |
+| ral In |        |        |        |        |        |        |        |
+| suranc |        |        |        |        |        |        |        |
+| e Comp |        |        |        |        |        |        |        |
+| any Li |        |        |        |        |        |        |        |
+| mited  |        |        |        |        |        |        |        |
++--------+--------+--------+--------+--------+--------+--------+--------+
+| Mahind | Transp | held   | 519380 | 519380 | 0      | 320.19 | 0.229  |
+| ra Log | ortati |        |        |        |        | 8      |        |
+| istics | on     |        |        |        |        |        |        |
+| Limite |        |        |        |        |        |        |        |
+| d      |        |        |        |        |        |        |        |
++--------+--------+--------+--------+--------+--------+--------+--------+
+| Relian | Petrol | reduce | 495000 | 480000 | -15000 | -244.7 | -0.355 |
+| ce Ind | eum Pr | d      |        |        |        | 85     |        |
+| ustrie | oducts |        |        |        |        |        |        |
+| s Limi |        |        |        |        |        |        |        |
+| ted    |        |        |        |        |        |        |        |
++--------+--------+--------+--------+--------+--------+--------+--------+
+| CRISIL | Financ | reduce | 152607 | 122607 | -30000 | -407.9 | -0.363 |
+| Limite | e      | d      |        |        |        | 17     |        |
+| d      |        |        |        |        |        |        |        |
++--------+--------+--------+--------+--------+--------+--------+--------+
+| HDFC   | Banks  | reduce | 998600 | 988600 | -10000 | 717.75 | 0.404  |
+| Bank L |        | d      |        |        |        | 2      |        |
+| imited |        |        |        |        |        |        |        |
++--------+--------+--------+--------+--------+--------+--------+--------+
+| Contai | Transp | reduce | 150107 | 149608 | -4987  | -891.7 | -0.812 |
+| ner Co | ortati | d      | 2      | 5      |        | 22     |        |
+| rporat | on     |        |        |        |        |        |        |
+| ion of |        |        |        |        |        |        |        |
+| India  |        |        |        |        |        |        |        |
+| Limite |        |        |        |        |        |        |        |
+| d      |        |        |        |        |        |        |        |
++--------+--------+--------+--------+--------+--------+--------+--------+
+| Avenue | Retail | reduce | 240191 | 148191 | -92000 | -1620. | -1.359 |
+| Superm | ing    | d      |        |        |        | 071    |        |
+| arts L |        |        |        |        |        |        |        |
+| imited |        |        |        |        |        |        |        |
++--------+--------+--------+--------+--------+--------+--------+--------+
+| Abbott | Pharma | reduce | 36490  | 33399  | -3091  | -199.4 | -0.247 |
+| India  | ceutic | d      |        |        |        | 26     |        |
+| Limite | als    |        |        |        |        |        |        |
+| d      |        |        |        |        |        |        |        |
++--------+--------+--------+--------+--------+--------+--------+--------+
+| PI Ind | Pestic | reduce | 368241 | 352761 | -15480 | 2.444  | -0.101 |
+| ustrie | ides   | d      |        |        |        |        |        |
+| s Limi |        |        |        |        |        |        |        |
+| ted    |        |        |        |        |        |        |        |
++--------+--------+--------+--------+--------+--------+--------+--------+
+| HDFC   | Financ | reduce | 147256 | 137565 | -96909 | -1327. | -1.195 |
+| Life I | e      | d      | 5      | 6      |        | 184    |        |
+| nsuran |        |        |        |        |        |        |        |
+| ce Com |        |        |        |        |        |        |        |
+| pany L |        |        |        |        |        |        |        |
+| imited |        |        |        |        |        |        |        |
++--------+--------+--------+--------+--------+--------+--------+--------+
+| Eicher | Auto   | exit   | 16698  | 0      | -16698 | -3446. | -2.779 |
+| Motors |        |        |        |        |        | 250    |        |
+| Limite |        |        |        |        |        |        |        |
+| d      |        |        |        |        |        |        |        |
++--------+--------+--------+--------+--------+--------+--------+--------+
+
+                                    Midcap 30 Fund
 select * from mutual_funds where month = 8 and fund_house = 'Midcap 30 Fund'
 ('Total number of stocks: ', 29)
 select * from mutual_funds where month = 7 and fund_house = 'Midcap 30 Fund'
 ('Total number of stocks: ', 28)
-                       Astral Poly Technik Limited held
-                        Hindustan Unilever Limited reduced
-                             Ajanta Pharma Limited held
-              Navin Fluorine International Limited added
-                     Metropolis Healthcare Limited held
-Cholamandalam Investment and Finance Company Limited held
-                  Coromandel International Limited held
-                                Bata India Limited held
-                    Max Financial Services Limited added
-                         Avenue Supermarts Limited reduced
-                         The Phoenix Mills Limited added
-                  Larsen & Toubro Infotech Limited held
-                                    Voltas Limited held
-                              Nestle India Limited reduced
-                             Bajaj Finance Limited held
-     Crompton Greaves Consumer Electricals Limited reduced
-                         The Ramco Cements Limited held
-                              Abbott India Limited reduced
-                         IPCA Laboratories Limited reduced
-                             PI Industries Limited held
-                Honeywell Automation India Limited held
-                      CreditAccess Grameen Limited added
-                           Page Industries Limited held
-                        Jubilant Foodworks Limited held
-                              Avanti Feeds Limited new
-                    Endurance Technologies Limited added
-                     AU Small Finance Bank Limited held
-                 Tube Investments of India Limited held
-                        TeamLease Services Limited reduced
++--------+--------+--------+--------+--------+--------+--------+--------+
+| stock_ | indust | state  | previo | curren | change | change | change |
+|  name  |   ry   |        | us_mon | t_quan | _in_qu | _in_va | _in_pe |
+|        |        |        | th_qua |  tity  | antity |  lue   | rcenta |
+|        |        |        | ntity  |        |        |  (in   | ge_of_ |
+|        |        |        |        |        |        | lacs)  |  aum   |
++========+========+========+========+========+========+========+========+
+| Avanti | Consum | new    | 0      | 650000 | 650000 | 3370.2 | 2.081  |
+| Feeds  | er Non |        |        |        |        | 50     |        |
+| Limite | Durabl |        |        |        |        |        |        |
+| d      | es     |        |        |        |        |        |        |
++--------+--------+--------+--------+--------+--------+--------+--------+
+| Navin  | Chemic | added  | 200000 | 228405 | 28405  | 936.55 | 0.434  |
+| Fluori | als    |        |        |        |        | 1      |        |
+| ne Int |        |        |        |        |        |        |        |
+| ernati |        |        |        |        |        |        |        |
+| onal L |        |        |        |        |        |        |        |
+| imited |        |        |        |        |        |        |        |
++--------+--------+--------+--------+--------+--------+--------+--------+
+| Max Fi | Financ | added  | 825000 | 159711 | 772111 | 4804.1 | 2.777  |
+| nancia | e      |        |        | 1      |        | 77     |        |
+| l Serv |        |        |        |        |        |        |        |
+| ices L |        |        |        |        |        |        |        |
+| imited |        |        |        |        |        |        |        |
++--------+--------+--------+--------+--------+--------+--------+--------+
+| The Ph | Constr | added  | 467516 | 880816 | 413300 | 2795.3 | 1.608  |
+| oenix  | uction |        |        |        |        | 68     |        |
+| Mills  |        |        |        |        |        |        |        |
+| Limite |        |        |        |        |        |        |        |
+| d      |        |        |        |        |        |        |        |
++--------+--------+--------+--------+--------+--------+--------+--------+
+| Credit | Financ | added  | 725000 | 750000 | 25000  | 1656.6 | 0.870  |
+| Access | e      |        |        |        |        | 25     |        |
+| Gramee |        |        |        |        |        |        |        |
+| n Limi |        |        |        |        |        |        |        |
+| ted    |        |        |        |        |        |        |        |
++--------+--------+--------+--------+--------+--------+--------+--------+
+| Endura | Auto A | added  | 107500 | 110000 | 25000  | 2356.5 | 1.056  |
+| nce Te | ncilla |        | 0      | 0      |        | 38     |        |
+| chnolo | ries   |        |        |        |        |        |        |
+| gies L |        |        |        |        |        |        |        |
+| imited |        |        |        |        |        |        |        |
++--------+--------+--------+--------+--------+--------+--------+--------+
+| Astral | Indust | held   | 326303 | 326303 | 0      | 514.09 | 0.188  |
+| Poly T | rial P |        |        |        |        | 0      |        |
+| echnik | roduct |        |        |        |        |        |        |
+| Limite | s      |        |        |        |        |        |        |
+| d      |        |        |        |        |        |        |        |
++--------+--------+--------+--------+--------+--------+--------+--------+
+| Ajanta | Pharma | held   | 170000 | 170000 | 0      | -245.8 | -0.265 |
+| Pharma | ceutic |        |        |        |        | 20     |        |
+| Limite | als    |        |        |        |        |        |        |
+| d      |        |        |        |        |        |        |        |
++--------+--------+--------+--------+--------+--------+--------+--------+
+| Metrop | Health | held   | 350000 | 350000 | 0      | 925.75 | 0.346  |
+| olis H | care S |        |        |        |        | 0      |        |
+| ealthc | ervice |        |        |        |        |        |        |
+| are Li | s      |        |        |        |        |        |        |
+| mited  |        |        |        |        |        |        |        |
++--------+--------+--------+--------+--------+--------+--------+--------+
+| Cholam | Financ | held   | 125000 | 125000 | 0      | 371.25 | 0.125  |
+| andala | e      |        | 0      | 0      |        | 0      |        |
+| m Inve |        |        |        |        |        |        |        |
+| stment |        |        |        |        |        |        |        |
+| and Fi |        |        |        |        |        |        |        |
+| nance  |        |        |        |        |        |        |        |
+| Compan |        |        |        |        |        |        |        |
+| y Limi |        |        |        |        |        |        |        |
+| ted    |        |        |        |        |        |        |        |
++--------+--------+--------+--------+--------+--------+--------+--------+
+| Coroma | Fertil | held   | 145000 | 145000 | 0      | -290.7 | -0.643 |
+| ndel I | isers  |        | 0      | 0      |        | 25     |        |
+| nterna |        |        |        |        |        |        |        |
+| tional |        |        |        |        |        |        |        |
+| Limite |        |        |        |        |        |        |        |
+| d      |        |        |        |        |        |        |        |
++--------+--------+--------+--------+--------+--------+--------+--------+
+| Bata   | Consum | held   | 326238 | 326238 | 0      | 101.13 | -0.107 |
+| India  | er Dur |        |        |        |        | 4      |        |
+| Limite | ables  |        |        |        |        |        |        |
+| d      |        |        |        |        |        |        |        |
++--------+--------+--------+--------+--------+--------+--------+--------+
+| Larsen | Softwa | held   | 100000 | 100000 | 0      | 41.550 | -0.073 |
+| &      | re     |        |        |        |        |        |        |
+| Toubro |        |        |        |        |        |        |        |
+| Infote |        |        |        |        |        |        |        |
+| ch Lim |        |        |        |        |        |        |        |
+| ited   |        |        |        |        |        |        |        |
++--------+--------+--------+--------+--------+--------+--------+--------+
+| Voltas | Consum | held   | 900000 | 900000 | 0      | 327.15 | -0.019 |
+| Limite | er Dur |        |        |        |        | 0      |        |
+| d      | ables  |        |        |        |        |        |        |
++--------+--------+--------+--------+--------+--------+--------+--------+
+| Bajaj  | Financ | held   | 150000 | 150000 | 0      | 354.75 | 0.019  |
+| Financ | e      |        |        |        |        | 0      |        |
+| e Limi |        |        |        |        |        |        |        |
+| ted    |        |        |        |        |        |        |        |
++--------+--------+--------+--------+--------+--------+--------+--------+
+| The    | Cement | held   | 400000 | 400000 | 0      | 4.400  | -0.111 |
+| Ramco  |        |        |        |        |        |        |        |
+| Cement |        |        |        |        |        |        |        |
+| s Limi |        |        |        |        |        |        |        |
+| ted    |        |        |        |        |        |        |        |
++--------+--------+--------+--------+--------+--------+--------+--------+
+| PI Ind | Pestic | held   | 525040 | 525040 | 0      | 409.26 | -0.126 |
+| ustrie | ides   |        |        |        |        | 9      |        |
+| s Limi |        |        |        |        |        |        |        |
+| ted    |        |        |        |        |        |        |        |
++--------+--------+--------+--------+--------+--------+--------+--------+
+| Honeyw | Indust | held   | 12609  | 12609  | 0      | 709.36 | 0.298  |
+| ell Au | rial C |        |        |        |        | 3      |        |
+| tomati | apital |        |        |        |        |        |        |
+| on     | Goods  |        |        |        |        |        |        |
+| India  |        |        |        |        |        |        |        |
+| Limite |        |        |        |        |        |        |        |
+| d      |        |        |        |        |        |        |        |
++--------+--------+--------+--------+--------+--------+--------+--------+
+| Page I | Textil | held   | 15000  | 15000  | 0      | -124.5 | -0.199 |
+| ndustr | e Prod |        |        |        |        | 82     |        |
+| ies Li | ucts   |        |        |        |        |        |        |
+| mited  |        |        |        |        |        |        |        |
++--------+--------+--------+--------+--------+--------+--------+--------+
+| Jubila | Consum | held   | 40000  | 40000  | 0      | 150.62 | 0.065  |
+| nt Foo | er Non |        |        |        |        | 0      |        |
+| dworks | Durabl |        |        |        |        |        |        |
+| Limite | es     |        |        |        |        |        |        |
+| d      |        |        |        |        |        |        |        |
++--------+--------+--------+--------+--------+--------+--------+--------+
+| AU     | Banks  | held   | 600000 | 600000 | 0      | -434.7 | -0.451 |
+| Small  |        |        |        |        |        | 00     |        |
+| Financ |        |        |        |        |        |        |        |
+| e Bank |        |        |        |        |        |        |        |
+| Limite |        |        |        |        |        |        |        |
+| d      |        |        |        |        |        |        |        |
++--------+--------+--------+--------+--------+--------+--------+--------+
+| Tube I | Auto A | held   | 603503 | 603503 | 0      | 838.86 | 0.392  |
+| nvestm | ncilla |        |        |        |        | 9      |        |
+| ents   | ries   |        |        |        |        |        |        |
+| of     |        |        |        |        |        |        |        |
+| India  |        |        |        |        |        |        |        |
+| Limite |        |        |        |        |        |        |        |
+| d      |        |        |        |        |        |        |        |
++--------+--------+--------+--------+--------+--------+--------+--------+
+| Hindus | Consum | reduce | 300000 | 280000 | -20000 | -701.1 | -0.705 |
+| tan Un | er Non | d      |        |        |        | 20     |        |
+| ilever | Durabl |        |        |        |        |        |        |
+| Limite | es     |        |        |        |        |        |        |
+| d      |        |        |        |        |        |        |        |
++--------+--------+--------+--------+--------+--------+--------+--------+
+| Avenue | Retail | reduce | 290000 | 275000 | -15000 | 206.93 | -0.118 |
+| Superm | ing    | d      |        |        |        | 2      |        |
+| arts L |        |        |        |        |        |        |        |
+| imited |        |        |        |        |        |        |        |
++--------+--------+--------+--------+--------+--------+--------+--------+
+| Nestle | Consum | reduce | 25005  | 21219  | -3786  | -747.0 | -0.631 |
+| India  | er Non | d      |        |        |        | 41     |        |
+| Limite | Durabl |        |        |        |        |        |        |
+| d      | es     |        |        |        |        |        |        |
++--------+--------+--------+--------+--------+--------+--------+--------+
+| Crompt | Consum | reduce | 373700 | 300000 | -73700 | -968.0 | -0.972 |
+| on Gre | er Dur | d      | 0      | 0      | 0      | 17     |        |
+| aves C | ables  |        |        |        |        |        |        |
+| onsume |        |        |        |        |        |        |        |
+| r Elec |        |        |        |        |        |        |        |
+| trical |        |        |        |        |        |        |        |
+| s Limi |        |        |        |        |        |        |        |
+| ted    |        |        |        |        |        |        |        |
++--------+--------+--------+--------+--------+--------+--------+--------+
+| Abbott | Pharma | reduce | 50000  | 49409  | -591   | 323.58 | -0.119 |
+| India  | ceutic | d      |        |        |        | 6      |        |
+| Limite | als    |        |        |        |        |        |        |
+| d      |        |        |        |        |        |        |        |
++--------+--------+--------+--------+--------+--------+--------+--------+
+| IPCA L | Pharma | reduce | 600000 | 500000 | -10000 | -1809. | -1.578 |
+| aborat | ceutic | d      |        |        | 0      | 600    |        |
+| ories  | als    |        |        |        |        |        |        |
+| Limite |        |        |        |        |        |        |        |
+| d      |        |        |        |        |        |        |        |
++--------+--------+--------+--------+--------+--------+--------+--------+
+| TeamLe | Commer | reduce | 299312 | 225000 | -74312 | -204.6 | -0.353 |
+| ase Se | cial S | d      |        |        |        | 23     |        |
+| rvices | ervice |        |        |        |        |        |        |
+| Limite | s      |        |        |        |        |        |        |
+| d      |        |        |        |        |        |        |        |
++--------+--------+--------+--------+--------+--------+--------+--------+
+
+                                     Equity Hybrid
 select * from mutual_funds where month = 8 and fund_house = 'Equity Hybrid'
 ('Total number of stocks: ', 32)
 select * from mutual_funds where month = 7 and fund_house = 'Equity Hybrid'
 ('Total number of stocks: ', 31)
-                 6.81% MAHARASHTRA SDL-08-Nov-2022 held
-   Housing Development Finance Corporation Limited added
-   Housing Development Finance Corporation Limited held
-                       Reliance Industries Limited reduced
-                                    CRISIL Limited reduced
-                                   Infosys Limited added
-                        Hindustan Unilever Limited new
-                                 HDFC Bank Limited added
-                             Eicher Motors Limited new
-                              Shree Cement Limited held
-                  Dr. Reddy's Laboratories Limited held
-                                ICICI Bank Limited held
-            Container Corporation of India Limited reduced
-                                 ABB India Limited held
-                             Castrol India Limited held
-                         Avenue Supermarts Limited reduced
-                   Procter & Gamble Health Limited added
-                      Britannia Industries Limited held
-                       Kotak Mahindra Bank Limited held
-                                 Axis Bank Limited held
-                              Abbott India Limited reduced
-                             Bharti Airtel Limited held
-                         Bayer Cropscience Limited reduced
-                 Tata Consultancy Services Limited held
-                      Gujarat Pipavav Port Limited held
-                       Maruti Suzuki India Limited held
-                             PI Industries Limited reduced
-                Honeywell Automation India Limited reduced
-                           Page Industries Limited held
-   ICICI Lombard General Insurance Company Limited held
-                        Mahindra Logistics Limited held
-               HDFC Life Insurance Company Limited reduced
-                             Eicher Motors Limited exit
++--------+--------+--------+--------+--------+--------+--------+--------+
+| stock_ | indust | state  | previo | curren | change | change | change |
+|  name  |   ry   |        | us_mon | t_quan | _in_qu | _in_va | _in_pe |
+|        |        |        | th_qua |  tity  | antity |  lue   | rcenta |
+|        |        |        | ntity  |        |        |  (in   | ge_of_ |
+|        |        |        |        |        |        | lacs)  |  aum   |
++========+========+========+========+========+========+========+========+
+| Hindus | Consum | new    | 0      | 29000  | 29000  | 614.03 | 1.804  |
+| tan Un | er Non |        |        |        |        | 2      |        |
+| ilever | Durabl |        |        |        |        |        |        |
+| Limite | es     |        |        |        |        |        |        |
+| d      |        |        |        |        |        |        |        |
++--------+--------+--------+--------+--------+--------+--------+--------+
+| Eicher | Auto   | new    | 0      | 32060  | 32060  | 670.69 | 1.971  |
+| Motors |        |        |        |        |        | 5      |        |
+| Limite |        |        |        |        |        |        |        |
+| d      |        |        |        |        |        |        |        |
++--------+--------+--------+--------+--------+--------+--------+--------+
+| Housin | Financ | added  | 95221  | 110221 | 15000  | 323.11 | 0.866  |
+| g Deve | e      |        |        |        |        | 9      |        |
+| lopmen |        |        |        |        |        |        |        |
+| t Fina |        |        |        |        |        |        |        |
+| nce Co |        |        |        |        |        |        |        |
+| rporat |        |        |        |        |        |        |        |
+| ion Li |        |        |        |        |        |        |        |
+| mited  |        |        |        |        |        |        |        |
++--------+--------+--------+--------+--------+--------+--------+--------+
+| Infosy | Softwa | added  | 140000 | 152000 | 12000  | 59.072 | 0.107  |
+| s Limi | re     |        |        |        |        |        |        |
+| ted    |        |        |        |        |        |        |        |
++--------+--------+--------+--------+--------+--------+--------+--------+
+| HDFC   | Banks  | added  | 178659 | 184159 | 5500   | 209.74 | 0.526  |
+| Bank L |        |        |        |        |        | 8      |        |
+| imited |        |        |        |        |        |        |        |
++--------+--------+--------+--------+--------+--------+--------+--------+
+| Procte | Pharma | added  | 17845  | 17982  | 137    | 121.47 | 0.321  |
+| r &    | ceutic |        |        |        |        | 6      |        |
+| Gamble | als    |        |        |        |        |        |        |
+| Health |        |        |        |        |        |        |        |
+| Limite |        |        |        |        |        |        |        |
+| d      |        |        |        |        |        |        |        |
++--------+--------+--------+--------+--------+--------+--------+--------+
+| 6.81%  | Sovere | held   | 400000 | 400000 | 0      | -10.21 | -0.228 |
+| MAHARA | ign    |        | 0      | 0      |        | 2      |        |
+| SHTRA  |        |        |        |        |        |        |        |
+| SDL-08 |        |        |        |        |        |        |        |
+| -Nov-2 |        |        |        |        |        |        |        |
+| 022    |        |        |        |        |        |        |        |
++--------+--------+--------+--------+--------+--------+--------+--------+
+| Housin | CRISIL | held   | 100000 | 100000 | 0      | -3.948 | -0.063 |
+| g Deve | AAA    |        | 0      | 0      |        |        |        |
+| lopmen |        |        |        |        |        |        |        |
+| t Fina |        |        |        |        |        |        |        |
+| nce Co |        |        |        |        |        |        |        |
+| rporat |        |        |        |        |        |        |        |
+| ion Li |        |        |        |        |        |        |        |
+| mited  |        |        |        |        |        |        |        |
++--------+--------+--------+--------+--------+--------+--------+--------+
+| Shree  | Cement | held   | 4151   | 4151   | 0      | -59.28 | -0.218 |
+| Cement |        |        |        |        |        | 3      |        |
+| Limite |        |        |        |        |        |        |        |
+| d      |        |        |        |        |        |        |        |
++--------+--------+--------+--------+--------+--------+--------+--------+
+| Dr. Re | Pharma | held   | 18002  | 18002  | 0      | -46.14 | -0.176 |
+| ddy's  | ceutic |        |        |        |        | 8      |        |
+| Labora | als    |        |        |        |        |        |        |
+| tories |        |        |        |        |        |        |        |
+| Limite |        |        |        |        |        |        |        |
+| d      |        |        |        |        |        |        |        |
++--------+--------+--------+--------+--------+--------+--------+--------+
+| ICICI  | Banks  | held   | 267118 | 267118 | 0      | 127.68 | 0.330  |
+| Bank L |        |        |        |        |        | 2      |        |
+| imited |        |        |        |        |        |        |        |
++--------+--------+--------+--------+--------+--------+--------+--------+
+| ABB    | Indust | held   | 53433  | 53433  | 0      | 29.816 | 0.064  |
+| India  | rial C |        |        |        |        |        |        |
+| Limite | apital |        |        |        |        |        |        |
+| d      | Goods  |        |        |        |        |        |        |
++--------+--------+--------+--------+--------+--------+--------+--------+
+| Castro | Petrol | held   | 319385 | 319385 | 0      | 20.600 | 0.043  |
+| l      | eum Pr |        |        |        |        |        |        |
+| India  | oducts |        |        |        |        |        |        |
+| Limite |        |        |        |        |        |        |        |
+| d      |        |        |        |        |        |        |        |
++--------+--------+--------+--------+--------+--------+--------+--------+
+| Britan | CRISIL | held   | 16599  | 16599  | 0      | -0.017 | -0.000 |
+| nia In | AAA    |        |        |        |        |        |        |
+| dustri |        |        |        |        |        |        |        |
+| es Lim |        |        |        |        |        |        |        |
+| ited   |        |        |        |        |        |        |        |
++--------+--------+--------+--------+--------+--------+--------+--------+
+| Kotak  | Banks  | held   | 104640 | 104640 | 0      | 37.252 | 0.039  |
+| Mahind |        |        |        |        |        |        |        |
+| ra     |        |        |        |        |        |        |        |
+| Bank L |        |        |        |        |        |        |        |
+| imited |        |        |        |        |        |        |        |
++--------+--------+--------+--------+--------+--------+--------+--------+
+| Axis   | ICRA   | held   | 100000 | 100000 | 0      | 2.952  | -0.040 |
+| Bank L | A1+    |        | 0      | 0      |        |        |        |
+| imited |        |        |        |        |        |        |        |
++--------+--------+--------+--------+--------+--------+--------+--------+
+| Bharti | Teleco | held   | 58000  | 58000  | 0      | -24.21 | -0.087 |
+| Airtel | m - Se |        |        |        |        | 5      |        |
+| Limite | rvices |        |        |        |        |        |        |
+| d      |        |        |        |        |        |        |        |
++--------+--------+--------+--------+--------+--------+--------+--------+
+| Tata C | Softwa | held   | 70627  | 70627  | 0      | -17.05 | -0.129 |
+| onsult | re     |        |        |        |        | 6      |        |
+| ancy S |        |        |        |        |        |        |        |
+| ervice |        |        |        |        |        |        |        |
+| s Limi |        |        |        |        |        |        |        |
+| ted    |        |        |        |        |        |        |        |
++--------+--------+--------+--------+--------+--------+--------+--------+
+| Gujara | Transp | held   | 309634 | 309634 | 0      | 15.482 | 0.034  |
+| t Pipa | ortati |        |        |        |        |        |        |
+| vav    | on     |        |        |        |        |        |        |
+| Port L |        |        |        |        |        |        |        |
+| imited |        |        |        |        |        |        |        |
++--------+--------+--------+--------+--------+--------+--------+--------+
+| Maruti | Auto   | held   | 9295   | 9295   | 0      | 53.651 | 0.129  |
+| Suzuki |        |        |        |        |        |        |        |
+| India  |        |        |        |        |        |        |        |
+| Limite |        |        |        |        |        |        |        |
+| d      |        |        |        |        |        |        |        |
++--------+--------+--------+--------+--------+--------+--------+--------+
+| Page I | Textil | held   | 1959   | 1959   | 0      | -16.27 | -0.067 |
+| ndustr | e Prod |        |        |        |        | 0      |        |
+| ies Li | ucts   |        |        |        |        |        |        |
+| mited  |        |        |        |        |        |        |        |
++--------+--------+--------+--------+--------+--------+--------+--------+
+| ICICI  | Financ | held   | 38629  | 38629  | 0      | -18.11 | -0.078 |
+| Lombar | e      |        |        |        |        | 7      |        |
+| d Gene |        |        |        |        |        |        |        |
+| ral In |        |        |        |        |        |        |        |
+| suranc |        |        |        |        |        |        |        |
+| e Comp |        |        |        |        |        |        |        |
+| any Li |        |        |        |        |        |        |        |
+| mited  |        |        |        |        |        |        |        |
++--------+--------+--------+--------+--------+--------+--------+--------+
+| Mahind | Transp | held   | 109311 | 109311 | 0      | 67.390 | 0.182  |
+| ra Log | ortati |        |        |        |        |        |        |
+| istics | on     |        |        |        |        |        |        |
+| Limite |        |        |        |        |        |        |        |
+| d      |        |        |        |        |        |        |        |
++--------+--------+--------+--------+--------+--------+--------+--------+
+| Relian | Petrol | reduce | 82000  | 77500  | -4500  | -82.47 | -0.326 |
+| ce Ind | eum Pr | d      |        |        |        | 9      |        |
+| ustrie | oducts |        |        |        |        |        |        |
+| s Limi |        |        |        |        |        |        |        |
+| ted    |        |        |        |        |        |        |        |
++--------+--------+--------+--------+--------+--------+--------+--------+
+| CRISIL | Financ | reduce | 38000  | 34000  | -4000  | -40.82 | -0.151 |
+| Limite | e      | d      |        |        |        | 3      |        |
+| d      |        |        |        |        |        |        |        |
++--------+--------+--------+--------+--------+--------+--------+--------+
+| Contai | Transp | reduce | 295891 | 158230 | -13766 | -712.9 | -2.160 |
+| ner Co | ortati | d      |        |        | 1      | 20     |        |
+| rporat | on     |        |        |        |        |        |        |
+| ion of |        |        |        |        |        |        |        |
+| India  |        |        |        |        |        |        |        |
+| Limite |        |        |        |        |        |        |        |
+| d      |        |        |        |        |        |        |        |
++--------+--------+--------+--------+--------+--------+--------+--------+
+| Avenue | Retail | reduce | 41763  | 30763  | -11000 | -169.2 | -0.540 |
+| Superm | ing    | d      |        |        |        | 07     |        |
+| arts L |        |        |        |        |        |        |        |
+| imited |        |        |        |        |        |        |        |
++--------+--------+--------+--------+--------+--------+--------+--------+
+| Abbott | Pharma | reduce | 6959   | 6359   | -600   | -39.75 | -0.170 |
+| India  | ceutic | d      |        |        |        | 5      |        |
+| Limite | als    |        |        |        |        |        |        |
+| d      |        |        |        |        |        |        |        |
++--------+--------+--------+--------+--------+--------+--------+--------+
+| Bayer  | Pestic | reduce | 3078   | 2328   | -750   | -35.55 | -0.113 |
+| Cropsc | ides   | d      |        |        |        | 6      |        |
+| ience  |        |        |        |        |        |        |        |
+| Limite |        |        |        |        |        |        |        |
+| d      |        |        |        |        |        |        |        |
++--------+--------+--------+--------+--------+--------+--------+--------+
+| PI Ind | Pestic | reduce | 75769  | 59615  | -16154 | -237.9 | -0.765 |
+| ustrie | ides   | d      |        |        |        | 29     |        |
+| s Limi |        |        |        |        |        |        |        |
+| ted    |        |        |        |        |        |        |        |
++--------+--------+--------+--------+--------+--------+--------+--------+
+| Honeyw | Indust | reduce | 1820   | 1313   | -507   | -63.01 | -0.209 |
+| ell Au | rial C | d      |        |        |        | 1      |        |
+| tomati | apital |        |        |        |        |        |        |
+| on     | Goods  |        |        |        |        |        |        |
+| India  |        |        |        |        |        |        |        |
+| Limite |        |        |        |        |        |        |        |
+| d      |        |        |        |        |        |        |        |
++--------+--------+--------+--------+--------+--------+--------+--------+
+| HDFC   | Financ | reduce | 263464 | 223186 | -40278 | -369.3 | -1.166 |
+| Life I | e      | d      |        |        |        | 10     |        |
+| nsuran |        |        |        |        |        |        |        |
+| ce Com |        |        |        |        |        |        |        |
+| pany L |        |        |        |        |        |        |        |
+| imited |        |        |        |        |        |        |        |
++--------+--------+--------+--------+--------+--------+--------+--------+
+| Eicher | Auto   | exit   | 3206   | 0      | -3206  | -661.6 | -1.977 |
+| Motors |        |        |        |        |        | 77     |        |
+| Limite |        |        |        |        |        |        |        |
+| d      |        |        |        |        |        |        |        |
++--------+--------+--------+--------+--------+--------+--------+--------+
