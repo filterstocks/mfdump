@@ -1,8 +1,9 @@
-Parag Parikh Long Term Equity Fund
+
+                Parag Parikh Long Term Equity Fund
 +-----------+---------+-----------+-----------+-----------+-----------+-----------+
 | stock_nam |  state  | previous_ | current_q | change_in | change_in | change_in |
 |     e     |         | month_qua |  uantity  | _quantity |  _value   | _percenta |
-|           |         |   ntity   |           |           |           | ge_of_aum |
+|           |         |   ntity   |           |           | (in lacs) | ge_of_aum |
 +===========+=========+===========+===========+===========+===========+===========+
 | Indian    | added   | 1477485   | 7398242   | 5920757   | 11619.860 | 2.500     |
 | Energy    |         |           |           |           |           |           |
@@ -107,11 +108,12 @@ Parag Parikh Long Term Equity Fund
 | HDFC Bank | reduced | 2285909   | 1499309   | -786600   | -6878.830 | -2.170    |
 | Ltd.      |         |           |           |           |           |           |
 +-----------+---------+-----------+-----------+-----------+-----------+-----------+
-   Parag Parikh Tax Saver Fund
+
+                       Parag Parikh Tax Saver Fund
 +-----------+---------+-----------+-----------+-----------+-----------+-----------+
 | stock_nam |  state  | previous_ | current_q | change_in | change_in | change_in |
 |     e     |         | month_qua |  uantity  | _quantity |  _value   | _percenta |
-|           |         |   ntity   |           |           |           | ge_of_aum |
+|           |         |   ntity   |           |           | (in lacs) | ge_of_aum |
 +===========+=========+===========+===========+===========+===========+===========+
 | Indian    | added   | 30032     | 94032     | 64000     | 127.520   | 1.980     |
 | Energy    |         |           |           |           |           |           |
