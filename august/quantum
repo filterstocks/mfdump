@@ -1,9 +1,5 @@
 
                            Quantum Tax Saving Fund
-select * from mutual_funds where month = 8 and fund_house = 'QTSF'
-('Total number of stocks: ', 30)
-select * from mutual_funds where month = 7 and fund_house = 'QTSF'
-('Total number of stocks: ', 30)
 +--------+--------+--------+--------+--------+--------+--------+--------+
 | stock_ | indust | state  | previo | curren | change | change | change |
 |  name  |   ry   |        | us_mon | t_quan | _in_qu | _in_va | _in_pe |
@@ -168,10 +164,6 @@ select * from mutual_funds where month = 7 and fund_house = 'QTSF'
 +--------+--------+--------+--------+--------+--------+--------+--------+
 
                Quantum Long Term Equity Value Fund
-select * from mutual_funds where month = 8 and fund_house = 'QLTEVF'
-('Total number of stocks: ', 30)
-select * from mutual_funds where month = 7 and fund_house = 'QLTEVF'
-('Total number of stocks: ', 30)
 +--------+--------+--------+--------+--------+--------+--------+--------+
 | stock_ | indust | state  | previo | curren | change | change | change |
 |  name  |   ry   |        | us_mon | t_quan | _in_qu | _in_va | _in_pe |

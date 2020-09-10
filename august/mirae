@@ -1,9 +1,5 @@
 
                         Mirae Asset Tax Saver Fund
-select * from mutual_funds where month = 8 and fund_house = 'MATSF'
-('Total number of stocks: ', 48)
-select * from mutual_funds where month = 7 and fund_house = 'MATSF'
-('Total number of stocks: ', 48)
 +--------+--------+--------+--------+--------+--------+--------+--------+
 | stock_ | indust | state  | previo | curren | change | change | change |
 |  name  |   ry   |        | us_mon | t_quan | _in_qu | _in_va | _in_pe |
@@ -299,10 +295,6 @@ select * from mutual_funds where month = 7 and fund_house = 'MATSF'
 +--------+--------+--------+--------+--------+--------+--------+--------+
 
                    Mirae Asset Equity Savings Fund
-select * from mutual_funds where month = 8 and fund_house = 'MAESF'
-('Total number of stocks: ', 48)
-select * from mutual_funds where month = 7 and fund_house = 'MAESF'
-('Total number of stocks: ', 48)
 +--------+--------+--------+--------+--------+--------+--------+--------+
 | stock_ | indust | state  | previo | curren | change | change | change |
 |  name  |   ry   |        | us_mon | t_quan | _in_qu | _in_va | _in_pe |
@@ -603,10 +595,6 @@ select * from mutual_funds where month = 7 and fund_house = 'MAESF'
 +--------+--------+--------+--------+--------+--------+--------+--------+
 
                     Mirae Asset Hybrid Equity Fund
-select * from mutual_funds where month = 8 and fund_house = 'MAHEF'
-('Total number of stocks: ', 48)
-select * from mutual_funds where month = 7 and fund_house = 'MAHEF'
-('Total number of stocks: ', 48)
 +--------+--------+--------+--------+--------+--------+--------+--------+
 | stock_ | indust | state  | previo | curren | change | change | change |
 |  name  |   ry   |        | us_mon | t_quan | _in_qu | _in_va | _in_pe |
@@ -900,10 +888,6 @@ select * from mutual_funds where month = 7 and fund_house = 'MAHEF'
 +--------+--------+--------+--------+--------+--------+--------+--------+
 
                        Mirae Asset Healthcare Fund
-select * from mutual_funds where month = 8 and fund_house = 'MAHCF'
-('Total number of stocks: ', 27)
-select * from mutual_funds where month = 7 and fund_house = 'MAHCF'
-('Total number of stocks: ', 28)
 +---------+---------+-------+---------+---------+---------+---------+---------+
 | stock_n | industr | state | previou | current | change_ | change_ | change_ |
 |   ame   |    y    |       | s_month | _quanti | in_quan | in_valu | in_perc |
@@ -1051,10 +1035,6 @@ select * from mutual_funds where month = 7 and fund_house = 'MAHCF'
 +---------+---------+-------+---------+---------+---------+---------+---------+
 
                 Mirae Asset Emerging Bluechip Fund
-select * from mutual_funds where month = 8 and fund_house = 'MAEBF'
-('Total number of stocks: ', 48)
-select * from mutual_funds where month = 7 and fund_house = 'MAEBF'
-('Total number of stocks: ', 48)
 +--------+--------+--------+--------+--------+--------+--------+--------+
 | stock_ | indust | state  | previo | curren | change | change | change |
 |  name  |   ry   |        | us_mon | t_quan | _in_qu | _in_va | _in_pe |
@@ -1344,10 +1324,6 @@ select * from mutual_funds where month = 7 and fund_house = 'MAEBF'
 +--------+--------+--------+--------+--------+--------+--------+--------+
 
                    Mirae Asset Great Consumer Fund
-select * from mutual_funds where month = 8 and fund_house = 'MAGCF'
-('Total number of stocks: ', 33)
-select * from mutual_funds where month = 7 and fund_house = 'MAGCF'
-('Total number of stocks: ', 34)
 +--------+--------+--------+--------+--------+--------+--------+--------+
 | stock_ | indust | state  | previo | curren | change | change | change |
 |  name  |   ry   |        | us_mon | t_quan | _in_qu | _in_va | _in_pe |
@@ -1548,10 +1524,6 @@ select * from mutual_funds where month = 7 and fund_house = 'MAGCF'
 +--------+--------+--------+--------+--------+--------+--------+--------+
 
                         Mirae Asset Large Cap Fund
-select * from mutual_funds where month = 8 and fund_house = 'MALCF'
-('Total number of stocks: ', 48)
-select * from mutual_funds where month = 7 and fund_house = 'MALCF'
-('Total number of stocks: ', 48)
 +--------+--------+--------+--------+--------+--------+--------+--------+
 | stock_ | indust | state  | previo | curren | change | change | change |
 |  name  |   ry   |        | us_mon | t_quan | _in_qu | _in_va | _in_pe |
@@ -1848,10 +1820,6 @@ select * from mutual_funds where month = 7 and fund_house = 'MALCF'
 +--------+--------+--------+--------+--------+--------+--------+--------+
 
                            Mirae Asset Midcap Fund
-select * from mutual_funds where month = 8 and fund_house = 'MAMCF'
-('Total number of stocks: ', 48)
-select * from mutual_funds where month = 7 and fund_house = 'MAMCF'
-('Total number of stocks: ', 48)
 +--------+--------+--------+--------+--------+--------+--------+--------+
 | stock_ | indust | state  | previo | curren | change | change | change |
 |  name  |   ry   |        | us_mon | t_quan | _in_qu | _in_va | _in_pe |
@@ -2148,10 +2116,6 @@ select * from mutual_funds where month = 7 and fund_house = 'MAMCF'
 +--------+--------+--------+--------+--------+--------+--------+--------+
 
                         Mirae Asset Arbitrage Fund
-select * from mutual_funds where month = 8 and fund_house = 'MAAF'
-('Total number of stocks: ', 39)
-select * from mutual_funds where month = 7 and fund_house = 'MAAF'
-('Total number of stocks: ', 36)
 +--------+--------+--------+--------+--------+--------+--------+--------+
 | stock_ | indust | state  | previo | curren | change | change | change |
 |  name  |   ry   |        | us_mon | t_quan | _in_qu | _in_va | _in_pe |
@@ -2418,10 +2382,6 @@ select * from mutual_funds where month = 7 and fund_house = 'MAAF'
 +--------+--------+--------+--------+--------+--------+--------+--------+
 
                           Mirae Asset Focused Fund
-select * from mutual_funds where month = 8 and fund_house = 'MAFF'
-('Total number of stocks: ', 31)
-select * from mutual_funds where month = 7 and fund_house = 'MAFF'
-('Total number of stocks: ', 30)
 +--------+--------+--------+--------+--------+--------+--------+--------+
 | stock_ | indust | state  | previo | curren | change | change | change |
 |  name  |   ry   |        | us_mon | t_quan | _in_qu | _in_va | _in_pe |

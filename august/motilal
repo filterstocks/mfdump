@@ -1,9 +1,5 @@
 
                              Long Term Equity Fund
-select * from mutual_funds where month = 8 and fund_house = 'Long Term Equity Fund'
-('Total number of stocks: ', 31)
-select * from mutual_funds where month = 7 and fund_house = 'Long Term Equity Fund'
-('Total number of stocks: ', 28)
 +--------+--------+--------+--------+--------+--------+--------+--------+
 | stock_ | indust | state  | previo | curren | change | change | change |
 |  name  |   ry   |        | us_mon | t_quan | _in_qu | _in_va | _in_pe |
@@ -214,10 +210,6 @@ select * from mutual_funds where month = 7 and fund_house = 'Long Term Equity Fu
 +--------+--------+--------+--------+--------+--------+--------+--------+
 
                                       Dynamic Fund
-select * from mutual_funds where month = 8 and fund_house = 'Dynamic Fund'
-('Total number of stocks: ', 30)
-select * from mutual_funds where month = 7 and fund_house = 'Dynamic Fund'
-('Total number of stocks: ', 29)
 +--------+--------+--------+--------+--------+--------+--------+--------+
 | stock_ | indust | state  | previo | curren | change | change | change |
 |  name  |   ry   |        | us_mon | t_quan | _in_qu | _in_va | _in_pe |
@@ -412,10 +404,6 @@ select * from mutual_funds where month = 7 and fund_house = 'Dynamic Fund'
 +--------+--------+--------+--------+--------+--------+--------+--------+
 
                                Large & Midcap Fund
-select * from mutual_funds where month = 8 and fund_house = 'Large & Midcap Fund'
-('Total number of stocks: ', 30)
-select * from mutual_funds where month = 7 and fund_house = 'Large & Midcap Fund'
-('Total number of stocks: ', 26)
 +--------+--------+--------+--------+--------+--------+--------+--------+
 | stock_ | indust | state  | previo | curren | change | change | change |
 |  name  |   ry   |        | us_mon | t_quan | _in_qu | _in_va | _in_pe |
@@ -598,10 +586,6 @@ select * from mutual_funds where month = 7 and fund_house = 'Large & Midcap Fund
 +--------+--------+--------+--------+--------+--------+--------+--------+
 
                                   Multicap 35 Fund
-select * from mutual_funds where month = 8 and fund_house = 'Multicap 35 Fund'
-('Total number of stocks: ', 26)
-select * from mutual_funds where month = 7 and fund_house = 'Multicap 35 Fund'
-('Total number of stocks: ', 26)
 +--------+--------+--------+--------+--------+--------+--------+--------+
 | stock_ | indust | state  | previo | curren | change | change | change |
 |  name  |   ry   |        | us_mon | t_quan | _in_qu | _in_va | _in_pe |
@@ -771,10 +755,6 @@ select * from mutual_funds where month = 7 and fund_house = 'Multicap 35 Fund'
 +--------+--------+--------+--------+--------+--------+--------+--------+
 
                                    Focused 25 Fund
-select * from mutual_funds where month = 8 and fund_house = 'Focused 25 Fund'
-('Total number of stocks: ', 25)
-select * from mutual_funds where month = 7 and fund_house = 'Focused 25 Fund'
-('Total number of stocks: ', 24)
 +--------+--------+--------+--------+--------+--------+--------+--------+
 | stock_ | indust | state  | previo | curren | change | change | change |
 |  name  |   ry   |        | us_mon | t_quan | _in_qu | _in_va | _in_pe |
@@ -936,10 +916,6 @@ select * from mutual_funds where month = 7 and fund_house = 'Focused 25 Fund'
 +--------+--------+--------+--------+--------+--------+--------+--------+
 
                                     Midcap 30 Fund
-select * from mutual_funds where month = 8 and fund_house = 'Midcap 30 Fund'
-('Total number of stocks: ', 29)
-select * from mutual_funds where month = 7 and fund_house = 'Midcap 30 Fund'
-('Total number of stocks: ', 28)
 +--------+--------+--------+--------+--------+--------+--------+--------+
 | stock_ | indust | state  | previo | curren | change | change | change |
 |  name  |   ry   |        | us_mon | t_quan | _in_qu | _in_va | _in_pe |
@@ -1127,10 +1103,6 @@ select * from mutual_funds where month = 7 and fund_house = 'Midcap 30 Fund'
 +--------+--------+--------+--------+--------+--------+--------+--------+
 
                                      Equity Hybrid
-select * from mutual_funds where month = 8 and fund_house = 'Equity Hybrid'
-('Total number of stocks: ', 32)
-select * from mutual_funds where month = 7 and fund_house = 'Equity Hybrid'
-('Total number of stocks: ', 31)
 +--------+--------+--------+--------+--------+--------+--------+--------+
 | stock_ | indust | state  | previo | curren | change | change | change |
 |  name  |   ry   |        | us_mon | t_quan | _in_qu | _in_va | _in_pe |
